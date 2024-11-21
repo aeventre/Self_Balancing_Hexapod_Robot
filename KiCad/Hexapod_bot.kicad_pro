@@ -59,9 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|10670900|30271400|a7dbe43d-0ead-49ad-844a-7e402b5833fe|8921eba3-a67c-4021-878c-5c181367b7dd",
-        "clearance|10670900|30921402|66ec360a-759c-4f61-bf99-29d3a1e855a3|a7dbe43d-0ead-49ad-844a-7e402b5833fe",
-        "clearance|10670900|31571400|5f871980-f255-4934-8698-4d507ec1a395|66ec360a-759c-4f61-bf99-29d3a1e855a3",
         "clearance|27501410|23925767|52d57dd1-f342-493b-8d86-539fbd3c82ad|9e660b68-d601-4d57-9c36-053331375670",
         "clearance|27501410|24925768|8c2ca707-7378-4b4d-ac07-a28a84d7e5cd|44ec981d-86a5-41ef-a338-81791d9050a0",
         "clearance|28675769|25744590|2d1eb4d4-0530-47c2-8135-3f70fd57462d|229dc0fd-2cc3-4415-97fb-e1c8e67a3805",
@@ -70,18 +67,7 @@
         "clearance|29922010|24074232|41fd7b94-1fca-4bcd-8efb-2c7ff5dda2cd|c1d24da6-8950-4cb1-87f8-deb213090891",
         "clearance|29922010|24574232|71d2b183-8445-4733-8534-8956d9fd6d11|41fd7b94-1fca-4bcd-8efb-2c7ff5dda2cd",
         "clearance|29922010|25074233|7ca51656-9053-4460-8016-8468dc22bbcc|71d2b183-8445-4733-8534-8956d9fd6d11",
-        "clearance|6276700|30078602|d2cc7033-f371-44d4-9e13-b9d198ffc402|0d86656d-bc20-45d0-ba30-ded30a93f3ea",
-        "clearance|6276700|30728600|0d86656d-bc20-45d0-ba30-ded30a93f3ea|43426017-a99a-4d1c-871e-5eeb75a2b9f8",
-        "clearance|6276700|31378602|43426017-a99a-4d1c-871e-5eeb75a2b9f8|8f88dcde-cc9b-4396-85a9-1bc242e0e4e4",
-        "lib_footprint_mismatch|28970000|0|e979b1fe-ad2d-4134-b2f8-18023926ebe9|00000000-0000-0000-0000-000000000000",
-        "shorting_items|11505400|20677401|f2d8fc71-6a95-4d14-81d2-1a11f454a84d|f506f481-9dce-4f39-a3c0-cea75006e8a9",
-        "shorting_items|11505400|21327399|5dc17d9d-9957-46a1-be3c-baed5886fae2|f506f481-9dce-4f39-a3c0-cea75006e8a9",
-        "shorting_items|11505400|21977401|f2b2c1a7-e1a0-4696-add2-867fed6d8b55|f506f481-9dce-4f39-a3c0-cea75006e8a9",
-        "shorting_items|11505400|22627399|6d76d048-4268-4409-83e5-3dfbeb62eaab|f506f481-9dce-4f39-a3c0-cea75006e8a9",
-        "solder_mask_bridge|11505400|20677401|f2d8fc71-6a95-4d14-81d2-1a11f454a84d|f506f481-9dce-4f39-a3c0-cea75006e8a9",
-        "solder_mask_bridge|11505400|21327399|5dc17d9d-9957-46a1-be3c-baed5886fae2|f506f481-9dce-4f39-a3c0-cea75006e8a9",
-        "solder_mask_bridge|11505400|21977401|f2b2c1a7-e1a0-4696-add2-867fed6d8b55|f506f481-9dce-4f39-a3c0-cea75006e8a9",
-        "solder_mask_bridge|11505400|22627399|6d76d048-4268-4409-83e5-3dfbeb62eaab|f506f481-9dce-4f39-a3c0-cea75006e8a9"
+        "lib_footprint_mismatch|28970000|0|e979b1fe-ad2d-4134-b2f8-18023926ebe9|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -580,7 +566,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

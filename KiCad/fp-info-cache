@@ -1,4 +1,4 @@
-24264121397516681
+24271051260947029
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90531,7 +90531,7 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 48
 48
 Spiderbot
-CSD25402Q3A
+8VSON
 
 CSD25402Q3A 
 0
@@ -90562,6 +90562,13 @@ Spiderbot
 IND_BOURNS_SRN8040
 
 SRN8040-3R3Y 
+0
+2
+2
+Spiderbot
+IND_IHLP-4040DZ_VIS
+
+IHLP4040DZERR24M11 
 0
 2
 2
@@ -90601,6 +90608,20 @@ PCAP_TPB_B2_PAN
 2
 2
 Spiderbot
+PCAP_TPE_B2_PAN_1411
+
+10TPE47MAZB 
+0
+2
+2
+Spiderbot
+Q2_SON6_TEX
+
+CSD13202Q2 
+0
+8
+8
+Spiderbot
 SOT-23_3L_ONS
 
 BSS138 
@@ -90614,6 +90635,13 @@ PCA9685PW
 0
 28
 28
+Spiderbot
+TPS40305DRCR
+
+TPS40305DRCR 
+0
+10
+10
 Spiderbot
 Terminal
 <b>WR-TBL Serie 2141 - 3.50 mm Horiz. Entry Modular<br></b>Max Height =8.5mm , Pitch 3.5mm , 2 Pins
