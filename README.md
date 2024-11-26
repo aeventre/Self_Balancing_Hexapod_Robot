@@ -1,5 +1,25 @@
 # SpiderBot
 
+## Instructions for Setting up the Virtual Environment
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aeventre/SpiderBot.git
+   cd SpiderBot
+2. Run the setup script
+    ```bash
+    ./setup.sh
+3. Build the ROS2 workspace
+    ```bash
+    cd ros2_ws
+    colcon build
+4. In a New Terminal Source the workspace
+    ```bash
+    source ros2_ws/install/setup.bash
+
+
+    
+## Useful Resources
 CAD from: https://github.com/robs-tech-workbench/hexapod_spiderbot_model
 
 Useful References:
