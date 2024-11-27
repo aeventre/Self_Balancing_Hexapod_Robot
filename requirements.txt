@@ -1,0 +1,4 @@
+setuptools
+adafruit-circuitpython-pca9685
+adafruit-circuitpython-busdevice
+adafruit-blinka
