@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'imu_interface'
+package_name = 'hexapod_imu_interface'
 
 setup(
     name=package_name,
