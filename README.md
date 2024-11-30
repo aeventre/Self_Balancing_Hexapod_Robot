@@ -1,5 +1,20 @@
 # SpiderBot
 
+## Ros2 Package Structure
+├── ros2_ws/                  # ROS2 workspace
+│   ├── src/
+│   │   ├── servo_control/       # Servo control package
+│   │   ├── imu_driver/          # IMU interface package
+│   │   ├── gpio_sensors/        # Ground-contact switches package
+│   │   ├── gait_controller/     # Gait generation and walking control
+│   │   ├── static_balancer/     # Static balancing algorithms
+│   │   ├── dynamic_balancer/    # Dynamic balancing during walking
+
+
+
+
+
+
 ## Instructions for Setting up the Virtual Environment
 
 1. Clone the repository:
@@ -36,3 +51,5 @@ https://github.com/robs-tech-workbench/hexapod_spiderbot_tutorials/blob/main/tut
 https://github.com/makeyourpet/hexapod
 
 https://github.com/SmallpTsai/hexapod-v2-7697
+
+
