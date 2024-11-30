@@ -44,40 +44,59 @@ class ServoCalibration(Node):
         """Set a servo to a specific angle."""
         offset = self.offsets.get(str(channel), 0)
         angle_with_offset = angle + offset
-        if 0 <= angle_with_offset <= 180:
-            duty_cycle = int(0xFFFF * ((angle_with_offset / 180) * 0.05 + 0.075))
-            self.pca.channels[channel].duty_cycle = duty_cycle
-            self.get_logger().info(f"Channel {channel}: angle={angle} (offset={offset})")
-        else:
-            self.get_logger().warning(f"Angle out of range: {angle_with_offset}")
+
+        # Ensure the angle is within the 0–180° range
+        angle_with_offset = max(0, min(180, angle_with_offset))
+
+        # Calculate the duty cycle for the desired angle
+        min_pulse = 0.025  # 500 μs
+        max_pulse = 0.125  # 2500 μs
+        duty_cycle = int(0xFFFF * ((angle_with_offset / 180) * (min_pulse - max_pulse) + max_pulse))
+
+        # Set the servo position
+        self.pca.channels[channel].duty_cycle = duty_cycle
+        self.get_logger().info(f"Channel {channel}: angle={angle} (offset={offset}, duty_cycle={duty_cycle})")
 
     def calibrate(self):
         """Interactive calibration routine."""
+        current_channel = None
+
         while True:
             try:
                 print("\nServo Calibration Menu:")
-                print("1. Set Servo Angle")
-                print("2. Adjust Offset")
-                print("3. Save Offsets")
-                print("4. Exit")
+                if current_channel is not None:
+                    print(f"Currently selected channel: {current_channel}")
+                print("1. Select Servo Channel")
+                print("2. Set Servo Angle")
+                print("3. Adjust Offset")
+                print("4. Save Offsets")
+                print("5. Exit")
 
                 choice = input("Enter your choice: ")
 
                 if choice == '1':
-                    channel = int(input("Enter servo channel (0-15): "))
-                    angle = int(input("Enter angle (0-180): "))
-                    self.set_servo(channel, angle)
+                    current_channel = int(input("Enter servo channel (0-15): "))
+                    print(f"Selected channel {current_channel}.")
 
                 elif choice == '2':
-                    channel = int(input("Enter servo channel (0-15): "))
-                    offset = int(input("Enter offset (-90 to 90): "))
-                    self.offsets[str(channel)] = offset
-                    print(f"Offset for channel {channel} set to {offset}.")
+                    if current_channel is None:
+                        print("Please select a servo channel first.")
+                        continue
+                    angle = int(input("Enter angle (0-180): "))
+                    self.set_servo(current_channel, angle)
 
                 elif choice == '3':
-                    self.save_offsets()
+                    if current_channel is None:
+                        print("Please select a servo channel first.")
+                        continue
+                    offset = int(input("Enter offset (-90 to 90): "))
+                    self.offsets[str(current_channel)] = offset
+                    print(f"Offset for channel {current_channel} set to {offset}.")
 
                 elif choice == '4':
+                    self.save_offsets()
+
+                elif choice == '5':
                     print("Exiting calibration.")
                     break
 
