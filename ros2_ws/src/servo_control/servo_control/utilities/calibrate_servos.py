@@ -18,9 +18,12 @@ class ServoCalibration(Node):
         # Initialize I2C bus
         self.i2c = busio.I2C(board.SCL, board.SDA)
 
-        # Initialize PCA9685
-        self.pca = PCA9685(self.i2c, address=0x40)
-        self.pca.frequency = 50  # Standard servo frequency
+        # Initialize PCA9685 boards
+        self.pca1 = PCA9685(self.i2c, address=0x40)  # First board
+        self.pca1.frequency = 50
+
+        self.pca2 = PCA9685(self.i2c, address=0x41)  # Second board
+        self.pca2.frequency = 50
 
         # Start interactive calibration
         self.calibrate()
@@ -32,7 +35,7 @@ class ServoCalibration(Node):
                 return json.load(f)
         except FileNotFoundError:
             self.get_logger().warning("Offsets file not found. Initializing with zeros.")
-            return {str(i): 0 for i in range(16)}  # Default 16 channels
+            return {str(i): 0 for i in range(18)}  # Default 18 channels
 
     def save_offsets(self):
         """Save servo offsets to a file."""
@@ -45,16 +48,22 @@ class ServoCalibration(Node):
         offset = self.offsets.get(str(channel), 0)
         angle_with_offset = angle + offset
 
-        # Ensure the angle is within the 0–180° range
+        # Ensure the angle is within the valid range
         angle_with_offset = max(0, min(180, angle_with_offset))
 
-        # Calculate the duty cycle for the desired angle
+        # Calculate the duty cycle for the adjusted angle
         min_pulse = 0.025  # 500 μs
         max_pulse = 0.125  # 2500 μs
-        duty_cycle = int(0xFFFF * ((angle_with_offset / 180) * (min_pulse - max_pulse) + max_pulse))
+        duty_cycle = int(0xFFFF * ((angle_with_offset / 180) * (max_pulse - min_pulse) + min_pulse))
 
-        # Set the servo position
-        self.pca.channels[channel].duty_cycle = duty_cycle
+        # Determine which PCA board and channel to use
+        if channel < 9:
+            self.pca1.channels[channel].duty_cycle = duty_cycle
+        elif channel < 18:
+            self.pca2.channels[channel - 9].duty_cycle = duty_cycle
+        else:
+            self.get_logger().error(f"Invalid channel {channel}. Must be 0-17.")
+
         self.get_logger().info(f"Channel {channel}: angle={angle} (offset={offset}, duty_cycle={duty_cycle})")
 
     def calibrate(self):
@@ -66,7 +75,7 @@ class ServoCalibration(Node):
                 print("\nServo Calibration Menu:")
                 if current_channel is not None:
                     print(f"Currently selected channel: {current_channel}")
-                print("1. Select Servo Channel")
+                print("1. Select Servo Channel (0-17)")
                 print("2. Set Servo Angle")
                 print("3. Adjust Offset")
                 print("4. Save Offsets")
@@ -75,7 +84,7 @@ class ServoCalibration(Node):
                 choice = input("Enter your choice: ")
 
                 if choice == '1':
-                    current_channel = int(input("Enter servo channel (0-15): "))
+                    current_channel = int(input("Enter servo channel (0-17): "))
                     print(f"Selected channel {current_channel}.")
 
                 elif choice == '2':
