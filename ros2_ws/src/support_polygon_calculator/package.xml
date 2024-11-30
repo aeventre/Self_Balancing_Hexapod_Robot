@@ -12,6 +12,11 @@
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
+    <!-- External Libraries -->
+  <build_depend>libcgal-dev</build_depend>
+  <build_depend>libboost-all-dev</build_depend>
+  <build_depend>libeigen3-dev</build_depend>
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>

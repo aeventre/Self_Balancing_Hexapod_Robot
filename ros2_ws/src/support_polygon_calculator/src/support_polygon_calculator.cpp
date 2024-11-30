@@ -1,4 +1,8 @@
 #include <cstdio>
+#include <Eigen/Dense>
+#include <boost/geometry.hpp>
+#include <CGAL/convex_hull_2.h>
+
 
 int main(int argc, char ** argv)
 {
