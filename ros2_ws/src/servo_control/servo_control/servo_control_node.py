@@ -13,7 +13,7 @@ class ServoControlNode(Node):
         self.i2c = busio.I2C(board.SCL, board.SDA)
 
         # Initialize PCA9685 controllers
-        self.pca1 = PCA9685(self.i2c, address=0x40)
+        self.pca1 = PCA9685(self.i2c, address=0x40)  # First PCA chip
         self.pca1.frequency = 50
 
         # Enable second PCA chip by default
@@ -23,11 +23,11 @@ class ServoControlNode(Node):
         self.pca2 = None
         if enable_second_pca:
             try:
-                self.pca2 = PCA9685(self.i2c, address=0x41)
+                self.pca2 = PCA9685(self.i2c, address=0x41)  # Correct address for the second PCA
                 self.pca2.frequency = 50
-                self.get_logger().info("Second PCA chip initialized.")
+                self.get_logger().info("Second PCA chip initialized successfully at address 0x41.")
             except Exception as e:
-                self.get_logger().error(f"Failed to initialize second PCA chip: {e}")
+                self.get_logger().error(f"Failed to initialize second PCA chip at 0x41: {e}")
         else:
             self.get_logger().info("Second PCA chip disabled.")
 
@@ -64,9 +64,10 @@ class ServoControlNode(Node):
                     self.get_logger().warning(f"Invalid angle {angle_or_duty} for servo {i}")
             elif self.pca2 and i < 18:  # Servos on PCA2
                 if 0 <= angle_or_duty <= 180:
+                    self.get_logger().info(f"Setting channel {i - 9} on PCA2 to angle {angle_or_duty}.")
                     self.set_servo(self.pca2, i - 9, angle_or_duty)
                 else:
-                    self.get_logger().warning(f"Invalid angle {angle_or_duty} for servo {i}")
+                    self.get_logger().warning(f"Invalid angle {angle_or_duty} for servo {i} on PCA2.")
             elif self.pca2 and i >= 18:  # Extra PWM channels
                 if 0 <= angle_or_duty <= 0xFFFF:
                     self.pca2.channels[i - 18].duty_cycle = angle_or_duty
