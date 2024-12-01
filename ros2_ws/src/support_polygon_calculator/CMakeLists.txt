@@ -18,10 +18,17 @@ find_package(Boost REQUIRED)
 find_package(Eigen3 REQUIRED)
 
 # Add the executable
-add_executable(support_polygon_calculator src/support_polygon_calculator.cpp)
+add_executable(support_polygon_node src/support_polygon_calculator.cpp)
+
+# Specify dependencies for the target
+ament_target_dependencies(support_polygon_node
+  rclcpp
+  std_msgs
+  geometry_msgs
+)
 
 # Include directories for the project and libraries
-target_include_directories(support_polygon_calculator PUBLIC
+target_include_directories(support_polygon_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>
   ${CGAL_INCLUDE_DIRS}
@@ -30,18 +37,18 @@ target_include_directories(support_polygon_calculator PUBLIC
 )
 
 # Link libraries
-target_link_libraries(support_polygon_calculator
+target_link_libraries(support_polygon_node
   ${CGAL_LIBRARIES}
   ${Boost_LIBRARIES}
 )
-ament_target_dependencies(support_polygon_calculator rclcpp)
 
 # Require C99 and C++17
-target_compile_features(support_polygon_calculator PUBLIC c_std_99 cxx_std_17)
+target_compile_features(support_polygon_node PUBLIC c_std_99 cxx_std_17)
 
 # Install the executable
-install(TARGETS support_polygon_calculator
-  DESTINATION lib/${PROJECT_NAME})
+install(TARGETS support_polygon_node
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 # Enable testing if necessary
 if(BUILD_TESTING)
