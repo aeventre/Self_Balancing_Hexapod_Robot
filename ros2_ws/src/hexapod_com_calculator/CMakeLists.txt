@@ -7,9 +7,17 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(pybind11 REQUIRED)
+
+
+add_library(com_calculator MODULE
+    src/com_calculator.cpp
+    src/bindings.cpp
+)
+target_compile_features(com_calculator PRIVATE cxx_std_17)
+target_link_libraries(com_calculator PRIVATE pybind11::module)
+set_target_properties(com_calculator PROPERTIES PREFIX "" SUFFIX ".so")
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
