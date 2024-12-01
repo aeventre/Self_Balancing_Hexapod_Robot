@@ -1,38 +1,18 @@
-# SpiderBot
+# Self-Balacing Hexapod Robot
+Created by: **Alec Ventresca & Ella Hicks**
 
-CAD from: https://github.com/robs-tech-workbench/hexapod_spiderbot_model
+## Table of Contents
 
-Useful References:
-https://docs.ros.org/en/jazzy/Tutorials.html
+## Overview
+### Future Goals
 
-https://github.com/stevej52/ros2_pca9685?tab=readme-ov-file#ros2_pca9685
+## Acknowledgments
+All CAD models used are from "Robs Tech Workbench" at https://github.com/robs-tech-workbench/hexapod_spiderbot_model\  
+  
+Shoutout to Addison Sears-Collins for all the incredibly helpful ROS2 tutorials at https://automaticaddison.com/
 
+## Software Design
+### Ros2 Package Structure
 
+## Circuit Design
 
-Other Hexapods for reference:
-
-https://github.com/robs-tech-workbench/hexapod_spiderbot_tutorials/blob/main/tutorial_tools_hardware_3d_parts_spider_robot/README.md
-
-https://github.com/makeyourpet/hexapod
-
-https://github.com/SmallpTsai/hexapod-v2-7697
-
-
-ROS Tutorials in Order:
-
-You can skip this if you want to do everything on the pi, but if you want to use your pc:
-https://automaticaddison.com/how-to-install-ubuntu-24-04-virtual-machine-on-a-windows-pc/
-
-https://automaticaddison.com/how-to-install-ros-2-jazzy/
-
-https://automaticaddison.com/how-to-create-a-workspace-in-ros2-jazzy/
-
-https://automaticaddison.com/how-to-install-and-configure-visual-studio-code-for-ros-2/
-
-https://automaticaddison.com/how-to-create-a-ros-2-package-jazzy/
-
-https://automaticaddison.com/how-to-create-a-ros-2-c-publisher-jazzy/
-
-https://automaticaddison.com/how-to-create-a-subscriber-node-in-c-jazzy/
-
-https://automaticaddison.com/how-to-create-unit-tests-with-gtest-ros-2-jazzy/
