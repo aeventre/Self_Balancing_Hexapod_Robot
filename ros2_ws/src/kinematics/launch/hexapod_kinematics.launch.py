@@ -5,7 +5,7 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package="kinematics",
-            executable="foward_kinematics_node",
+            executable="forward_kinematics_node",
             name="forward_kinematics_node",
             output="screen"
         ),

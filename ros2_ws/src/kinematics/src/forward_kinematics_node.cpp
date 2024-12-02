@@ -12,12 +12,14 @@ public:
 
 private:
     void computeFootPositions(const std_msgs::msg::Float32MultiArray::SharedPtr msg) {
+        RCLCPP_INFO(this->get_logger(), "Computing foot positions...");
         std::vector<std::vector<float>> joint_angles;
         for (size_t i = 0; i < msg->data.size(); i += 3) {
             joint_angles.push_back({msg->data[i], msg->data[i + 1], msg->data[i+2]});
         }
 
         auto foot_positions = hexapod_.computeForwardKinematics(joint_angles);
+        
 
         std_msgs::msg::Float32MultiArray foot_positions_msg;
         for (const auto& position : foot_positions) {
