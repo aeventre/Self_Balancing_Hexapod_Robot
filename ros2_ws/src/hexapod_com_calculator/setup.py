@@ -14,7 +14,7 @@ setup(
         'hexapod_msgs'
     ],
     zip_safe=True,
-    maintainer='Your Name',
+    maintainer='Alec Ventresca',
     maintainer_email='aeventre@buffalo.edu',
     description='Node to compute the center of mass (CoM) for the hexapod robot.',
     license='Apache-2.0',
@@ -24,4 +24,9 @@ setup(
             'com_calculator = hexapod_com_calculator.com_calculator:main'
         ],
     },
+    # Add the following for package index markers
+    data_files=[
+        ('share/ament_index/resource_index/packages', ['resource/hexapod_com_calculator']),
+        ('share/hexapod_com_calculator', ['package.xml']),
+    ],
 )
