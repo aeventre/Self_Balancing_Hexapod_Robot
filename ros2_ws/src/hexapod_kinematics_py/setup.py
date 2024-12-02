@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'ik_node = hexapod_kinematics_py.ik_node:main',
+            'kinematics = hexapod_kinematics_py.kinematics:main'
         ],
     },
 )

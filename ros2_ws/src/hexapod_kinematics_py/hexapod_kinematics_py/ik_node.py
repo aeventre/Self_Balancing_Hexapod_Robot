@@ -1,38 +1,37 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray
-from hexapod_kinematics_py.kinematics import HexapodKinematics
+import numpy as np  # Ensure numpy is imported
 
-class IKNode(Node):
+class InverseKinematicsNode(Node):
     def __init__(self):
         super().__init__('inverse_kinematics_node')
-        self.kinematics = HexapodKinematics()
-
-        self.leg_commands_sub = self.create_subscription(
-            Float32MultiArray, 'leg_commands', self.leg_commands_callback, 10)
-        self.joint_angles_pub = self.create_publisher(
-            Float32MultiArray, 'joint_angles', 10)
-
-        self.get_logger().info("Inverse Kinematics Node initialized.")
+        self.create_subscription(
+            Float32MultiArray,
+            'leg_commands',
+            self.leg_commands_callback,
+            10
+        )
+        self.publisher_ = self.create_publisher(
+            Float32MultiArray,
+            'joint_angles',
+            10
+        )
+        self.get_logger().info('Inverse Kinematics Node initialized.')
 
     def leg_commands_callback(self, msg):
+        self.get_logger().info('Received leg_commands.')
         targets = np.array(msg.data).reshape(-1, 3)  # Reshape into N x 3 array
-        joint_angles = []
-
-        for i, target in enumerate(targets):
-            try:
-                angles = self.kinematics.inverse_kinematics(target)
-                joint_angles.extend(angles)
-                self.get_logger().info(f"Leg[{i}] Target: {target}, Angles: {angles}")
-            except ValueError as e:
-                self.get_logger().error(f"Leg[{i}] IK Error: {e}")
-
-        # Publish joint angles
-        joint_angles_msg = Float32MultiArray(data=joint_angles)
-        self.joint_angles_pub.publish(joint_angles_msg)
+        self.get_logger().info(f'Targets: {targets}')
+        # Perform IK computation (dummy output for now)
+        joint_angles = Float32MultiArray()
+        joint_angles.data = [0.0] * 18  # Replace with actual IK results
+        self.publisher_.publish(joint_angles)
+        self.get_logger().info('Published joint angles.')
 
 def main(args=None):
     rclpy.init(args=args)
-    node = IKNode()
+    node = InverseKinematicsNode()
     rclpy.spin(node)
-    rclpy.shutdown()
+    node.destroy_node()
+    rcl
