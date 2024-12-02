@@ -14,8 +14,8 @@ data_files=[
 
     install_requires=['setuptools', 'smbus2'],
     zip_safe=True,
-    maintainer='user',
-    maintainer_email='user@example.com',
+    maintainer='Alec Ventresca',
+    maintainer_email='aeventre@buffalo.edu',
     description='IMU interface package for hexapod robot',
     license='Apache 2.0',
     entry_points={

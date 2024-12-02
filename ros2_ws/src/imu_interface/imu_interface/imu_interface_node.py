@@ -1,6 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Imu
+from geometry_msgs.msg import PoseStamped
 from smbus2 import SMBus
 
 IMU_I2C_ADDRESS = 0x6A  # Default I2C address for LSM6DSO32
@@ -9,6 +10,7 @@ class IMUInterface(Node):
     def __init__(self):
         super().__init__('imu_interface_node')
         self.imu_publisher = self.create_publisher(Imu, 'imu/data_raw', 10)
+        self.pose_publisher = self.create_publisher(PoseStamped, 'imu/pose', 10)
 
         # Initialize I2C
         self.bus = SMBus(1)
@@ -42,12 +44,11 @@ class IMUInterface(Node):
 
     def publish_imu_data(self):
         try:
-            # Read accelerometer data
+            # Read accelerometer and gyroscope data
             accel_x = self.read_raw_data(0x28)
             accel_y = self.read_raw_data(0x2A)
             accel_z = self.read_raw_data(0x2C)
 
-            # Read gyroscope data
             gyro_x = self.read_raw_data(0x22)
             gyro_y = self.read_raw_data(0x24)
             gyro_z = self.read_raw_data(0x26)
@@ -60,7 +61,7 @@ class IMUInterface(Node):
             gyro_y_dps = gyro_y * 0.07
             gyro_z_dps = gyro_z * 0.07
 
-            # Populate and publish Imu message
+            # Create and publish Imu message
             imu_msg = Imu()
             imu_msg.header.stamp = self.get_clock().now().to_msg()
             imu_msg.header.frame_id = 'imu_link'
@@ -73,7 +74,19 @@ class IMUInterface(Node):
             imu_msg.angular_velocity.y = gyro_y_dps
             imu_msg.angular_velocity.z = gyro_z_dps
 
+            # Assuming IMU provides orientation data; otherwise, leave default
+            imu_msg.orientation.x = 0.0
+            imu_msg.orientation.y = 0.0
+            imu_msg.orientation.z = 0.0
+            imu_msg.orientation.w = 1.0
+
             self.imu_publisher.publish(imu_msg)
+
+            # Create and publish PoseStamped message
+            pose_msg = PoseStamped()
+            pose_msg.header = imu_msg.header
+            pose_msg.pose.orientation = imu_msg.orientation
+            self.pose_publisher.publish(pose_msg)
         except Exception as e:
             self.get_logger().error(f'Failed to read IMU data: {e}')
 
