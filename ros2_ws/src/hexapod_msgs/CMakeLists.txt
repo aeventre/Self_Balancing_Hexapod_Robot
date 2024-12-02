@@ -14,7 +14,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JointAngles.msg"
   "msg/Polygon.msg"
   "msg/LegCommands.msg"
-  "msg/LegPositions.msg"  # Already defined
+  "msg/LegPositions.msg"
+  "msg/FootStatus.msg"
   DEPENDENCIES geometry_msgs
 )
 
