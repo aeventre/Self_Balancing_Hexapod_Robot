@@ -1,5 +1,50 @@
 # SpiderBot
 
+## Testing commands
+
+#IK node:
+ros2 topic pub /leg_commands std_msgs/msg/Float32MultiArray "data:
+- 0.15
+- 0.1
+- -0.25
+- 0.15
+- -0.1
+- -0.25
+- 0.0
+- 0.2
+- -0.25
+- -0.15
+- 0.1
+- -0.25
+- -0.15
+- -0.1
+- -0.25
+- 0.0
+- -0.2
+- -0.25"
+
+# FK node
+ros2 topic pub /joint_angles std_msgs/msg/Float32MultiArray "data:
+- 0.0
+- 0.0
+- -1.0
+- 0.5
+- -0.5
+- -1.0
+- 0.0
+- 1.0
+- 0.0
+- -0.5
+- 0.5
+- -1.0
+- 0.0
+- 0.0
+- 1.0
+- -0.5
+- -0.5
+- 1.0"
+
+
 ## Ros2 Package Structure
 ├── ros2_ws/                  # ROS2 workspace
 │   ├── src/
