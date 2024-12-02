@@ -9,10 +9,12 @@ class ServoCalibration(Node):
     def __init__(self):
         super().__init__('servo_calibration')
 
+        # Path to servo_offsets.json in the servo_control package
         self.get_logger().info("Initializing Servo Calibration...")
+        self.offsets_file = os.path.join(os.path.dirname(__file__), 'servo_offsets.json')
+        self.get_logger().info(f"Using offsets file: {self.offsets_file}")
 
         # Load or initialize servo offsets
-        self.offsets_file = 'servo_offsets.json'
         self.offsets = self.load_offsets()
 
         # Initialize I2C bus
