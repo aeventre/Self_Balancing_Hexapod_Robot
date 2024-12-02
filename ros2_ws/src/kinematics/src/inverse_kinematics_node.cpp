@@ -7,7 +7,7 @@ public:
     InverseKinematicsNode() : Node("inverse_kinematics_node") {
         leg_commands_sub_ = this->create_subscription<std_msgs::msg::Float32MultiArray>( 
             "leg_commands", 10, std::bind(&InverseKinematicsNode::legCommandsCallback, this, std::placeholders::_1));
-        joint_angles_pub_ = this->create_publisher<std_msgs::msg::FLoat32MultiArray>("joint_angles", 10);
+        joint_angles_pub_ = this->create_publisher<std_msgs::msg::Float32MultiArray>("joint_angles", 10);
 
         for (int i = 0; i < 6; ++i) {
             spider_legs_.emplace_back("Leg" + std::to_string(i + 1), 10.0f, 20.0f, 30.0f);
@@ -15,7 +15,7 @@ public:
     }
 
 private:
-    void legCommandsCallback(const std_msgs::msg::FLoat32MultiArray::SharedPtr msg) {
+    void legCommandsCallback(const std_msgs::msg::Float32MultiArray::SharedPtr msg) {
         if (msg->data.size() != 18) {
             RCLCPP_ERROR(this->get_logger(), "Invalid leg_commands size. Expected 18 elements.");
             return;

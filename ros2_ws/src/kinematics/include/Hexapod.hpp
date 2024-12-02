@@ -8,7 +8,7 @@ class Hexapod {
 public:
     Hexapod();
     
-    std::vector<std::vector<float>> computeFowardKinematics(const std::vector<std::vector<float>>& joint_angles);
+    std::vector<std::vector<float>> computeForwardKinematics(const std::vector<std::vector<float>>& joint_angles);
     std::vector<std::vector<float>> computeInverseKinematics(const std::vector<std::vector<float>>& foot_positions);
 
 private:

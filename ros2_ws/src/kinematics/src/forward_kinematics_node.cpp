@@ -7,11 +7,11 @@ public:
     ForwardKinematicsNode() : Node("forward_kinematics_node") {
         joint_angles_sub_ = this->create_subscription<std_msgs::msg::Float32MultiArray>( 
             "joint_angles", 10, std::bind(&ForwardKinematicsNode::computeFootPositions, this, std::placeholders::_1));
-        foot_positions_pub_ = this->create_publisher<std_msgs::msg::FLoat32MultiArray>("foot_positions", 10);
+        foot_positions_pub_ = this->create_publisher<std_msgs::msg::Float32MultiArray>("foot_positions", 10);
     }
 
 private:
-    void computeFootPositions(const std_msgs::msg::FLoat32MultiArray::SharedPtr msg) {
+    void computeFootPositions(const std_msgs::msg::Float32MultiArray::SharedPtr msg) {
         std::vector<std::vector<float>> joint_angles;
         for (size_t i = 0; i < msg->data.size(); i += 3) {
             joint_angles.push_back({msg->data[i], msg->data[i + 1], msg->data[i+2]});
@@ -29,7 +29,7 @@ private:
 
     Hexapod hexapod_;
     rclcpp::Subscription<std_msgs::msg::Float32MultiArray>::SharedPtr joint_angles_sub_;
-    rclcpp:Publisher<std_msgs::msg::FLoat32MultiArray>SharedPtr foot_positions_pub_;
+    rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::SharedPtr foot_positions_pub_;
 };
 
 int main(int argc, char** argv) {

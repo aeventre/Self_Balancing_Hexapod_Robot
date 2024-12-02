@@ -11,7 +11,7 @@ Hexapod::Hexapod() {
         SpiderLeg("BackRight", 10.0f, 20.0f, 30.0f)
     };
 }
-std::vector<std::vector<float>> Hexapod::computeFowardKinematics(const std::vector<std::vector<float>>& joint_angles) {
+std::vector<std::vector<float>> Hexapod::computeForwardKinematics(const std::vector<std::vector<float>>& joint_angles) {
     std::vector<std::vector<float>> foot_positions;
     for (size_t i = 0; i < legs_.size(); ++i) {
         foot_positions.push_back(legs_[i].forwardKinematics(joint_angles[i]));
