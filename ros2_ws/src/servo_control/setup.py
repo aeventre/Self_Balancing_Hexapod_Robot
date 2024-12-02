@@ -27,6 +27,7 @@ setup(
         'console_scripts': [
             'servo_control_node = servo_control.servo_control_node:main',
             'calibrate_servos = servo_control.utilities.calibrate_servos:main',
+            'preset_positions = servo_control.utilities.preset_positions:main',
         ],
     },
 )
