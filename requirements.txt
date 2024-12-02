@@ -4,3 +4,5 @@ adafruit-circuitpython-busdevice
 adafruit-blinka
 numpy
 scipy
+smbus2
+pyyaml
