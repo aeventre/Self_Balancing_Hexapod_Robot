@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>servo_control</name>
+  <version>0.0.1</version>
+  <description>Servo control package for hexapod robot</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <!-- I2C libraries and dependencies for PCA9685 -->
+  <exec_depend>adafruit-circuitpython-pca9685</exec_depend>
+  <exec_depend>adafruit-circuitpython-busdevice</exec_depend>
+  <exec_depend>adafruit-circuitpython-register</exec_depend>
+  <exec_depend>adafruit-blinka</exec_depend>
+  <exec_depend>RPi.GPIO</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

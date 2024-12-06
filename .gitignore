@@ -1,0 +1,27 @@
+# Ignore Python virtual environment
+environment/
+
+# Ignore VS Code configuration folder
+.vscode/
+
+# Ignore ROS2 build directories
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Ignore Python cache files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore temporary editor files
+*.swp
+*.bak
+*.tmp
+
+# Ignore KiCAD backups and cache
+**/spiderbot-backups/
+**/fp-info-cache
+
+# Ignore Python virtual environment
+**/environment/
