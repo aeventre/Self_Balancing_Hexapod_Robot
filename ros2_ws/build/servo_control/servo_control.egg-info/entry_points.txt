@@ -1,3 +1,0 @@
-[console_scripts]
-calibrate_servos = servo_control.utilities.calibrate_servos:main
-servo_control_node = servo_control.servo_control_node:main

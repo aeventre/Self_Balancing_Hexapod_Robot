@@ -1,2 +1,0 @@
-[console_scripts]
-com_calculator = hexapod_com_calculator.com_node:main

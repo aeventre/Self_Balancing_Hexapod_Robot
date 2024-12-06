@@ -1,8 +1,0 @@
-msg/JointAngles.idl
-msg/JointAngles.msg
-msg/LegCommands.idl
-msg/LegCommands.msg
-msg/LegPositions.idl
-msg/LegPositions.msg
-msg/Polygon.idl
-msg/Polygon.msg

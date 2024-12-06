@@ -1,4 +1,0 @@
-source;share/kinematics/local_setup.bash
-source;share/kinematics/local_setup.dsv
-source;share/kinematics/local_setup.sh
-source;share/kinematics/local_setup.zsh

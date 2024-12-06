@@ -1,1 +1,0 @@
-Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alec/Documents/SpiderBot/ros2_ws/src/support_polygon_calculator -DCMAKE_INSTALL_PREFIX=/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator

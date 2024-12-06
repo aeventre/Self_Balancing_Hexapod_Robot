@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: imu-interface
-Version: 0.1.0
-Summary: IMU interface package for hexapod robot
-Maintainer: Alec Ventresca
-Maintainer-email: aeventre@buffalo.edu
-License: Apache 2.0

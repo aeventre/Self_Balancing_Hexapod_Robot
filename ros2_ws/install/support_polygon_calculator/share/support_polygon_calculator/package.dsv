@@ -1,8 +1,0 @@
-source;share/support_polygon_calculator/hook/cmake_prefix_path.ps1
-source;share/support_polygon_calculator/hook/cmake_prefix_path.dsv
-source;share/support_polygon_calculator/hook/cmake_prefix_path.sh
-source;share/support_polygon_calculator/local_setup.bash
-source;share/support_polygon_calculator/local_setup.dsv
-source;share/support_polygon_calculator/local_setup.ps1
-source;share/support_polygon_calculator/local_setup.sh
-source;share/support_polygon_calculator/local_setup.zsh

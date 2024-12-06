@@ -1,9 +1,0 @@
-{
-  "package_name": "hexapod_msgs",
-  "non_idl_tuples": [
-    "/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_msgs:msg/JointAngles.msg",
-    "/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_msgs:msg/Polygon.msg",
-    "/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_msgs:msg/LegCommands.msg",
-    "/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_msgs:msg/LegPositions.msg"
-  ]
-}

@@ -1,1 +1,0 @@
-Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_msgs -DCMAKE_INSTALL_PREFIX=/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs
