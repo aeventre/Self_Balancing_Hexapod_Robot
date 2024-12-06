@@ -42464,7 +42464,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "SpiderBot Control Board\nRev 1\nDesigned by Alec Ventresca :)\n11/24"
+	(gr_text "SpiderBot Control Board\nRev 2\nDesigned by Alec Ventresca :)\n11/24"
 		(at -5.5 36.05 0)
 		(layer "F.SilkS")
 		(uuid "d2d15b38-e666-4092-a418-0d1b8ffa6761")
