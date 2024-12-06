@@ -24,4 +24,4 @@ __pycache__/
 **/fp-info-cache
 
 # Ignore Python virtual environment
-environment/
+**/environment/
