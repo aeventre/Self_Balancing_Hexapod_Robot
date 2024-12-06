@@ -865,7 +865,7 @@
 	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 20.32 18.796 0)
+		(at 89.916 61.214 0)
 		(effects
 			(font
 				(size 2.54 2.54)
