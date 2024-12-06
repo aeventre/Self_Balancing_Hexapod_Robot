@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hexapod_msgs/msg/JointAngles",
+      "fields": [
+        {
+          "name": "angles",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hexapod_msgs/msg/JointAngles",
+      "hash_string": "RIHS01_cad3d23dd1a4ef20d31fe3182cbef7985b33b935d08d8644da0fa7ae070438f3"
+    }
+  ]
+}

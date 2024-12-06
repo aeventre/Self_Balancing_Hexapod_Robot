@@ -1,0 +1,500 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c4305483c50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c4305429970>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c4305429970>>, mixin_verb=('build',))
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.176s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alec/Documents/SpiderBot/ros2_ws'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_com_calculator) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_com_calculator) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_com_calculator) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_com_calculator) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_com_calculator) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_com_calculator) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_com_calculator) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_com_calculator) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_com_calculator) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hexapod_com_calculator' with type 'ros.ament_python' and name 'hexapod_com_calculator'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/include/hexapod_description) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/rviz) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_description/src) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_kinematics_py) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_kinematics_py) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_kinematics_py) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_kinematics_py) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_kinematics_py) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_kinematics_py) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_kinematics_py) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_kinematics_py) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_kinematics_py) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hexapod_kinematics_py' with type 'ros.ament_python' and name 'hexapod_kinematics_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_msgs) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_msgs) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_msgs) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_msgs) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_msgs) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_msgs) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_msgs) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod_msgs) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hexapod_msgs' with type 'ros.ament_cmake' and name 'hexapod_msgs'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_interface' with type 'ros.ament_python' and name 'imu_interface'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servo_control' with type 'ros.ament_python' and name 'servo_control'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/support_polygon_calculator) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/support_polygon_calculator) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/support_polygon_calculator) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/support_polygon_calculator) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/support_polygon_calculator) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/support_polygon_calculator) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/support_polygon_calculator) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/support_polygon_calculator) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/support_polygon_calculator) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/support_polygon_calculator' with type 'ros.ament_cmake' and name 'support_polygon_calculator'
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/alec/Autotracking_Surgical_Lamp/ros2_ws/install
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/alec/ros2_ws/install
+[0.255s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 406 installed packages in /opt/ros/jazzy
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'hexapod_kinematics_py' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_kinematics_py' build argument 'cmake_target' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_kinematics_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_kinematics_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_kinematics_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_kinematics_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_kinematics_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_kinematics_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_kinematics_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'hexapod_kinematics_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py', 'merge_install': False, 'path': '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_kinematics_py', 'symlink_install': False, 'test_result_base': None}
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_msgs' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_msgs' build argument 'cmake_target' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'hexapod_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'hexapod_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs', 'merge_install': False, 'path': '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] DEBUG:colcon.colcon_core.verb:Building package 'imu_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alec/Documents/SpiderBot/ros2_ws/build/imu_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface', 'merge_install': False, 'path': '/home/alec/Documents/SpiderBot/ros2_ws/src/imu_interface', 'symlink_install': False, 'test_result_base': None}
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] DEBUG:colcon.colcon_core.verb:Building package 'servo_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alec/Documents/SpiderBot/ros2_ws/build/servo_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control', 'merge_install': False, 'path': '/home/alec/Documents/SpiderBot/ros2_ws/src/servo_control', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'support_polygon_calculator' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'support_polygon_calculator' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'support_polygon_calculator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'support_polygon_calculator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'support_polygon_calculator' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'support_polygon_calculator' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'support_polygon_calculator' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'support_polygon_calculator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'support_polygon_calculator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'support_polygon_calculator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator', 'merge_install': False, 'path': '/home/alec/Documents/SpiderBot/ros2_ws/src/support_polygon_calculator', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'hexapod_com_calculator' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'hexapod_com_calculator' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'hexapod_com_calculator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'hexapod_com_calculator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'hexapod_com_calculator' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'hexapod_com_calculator' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'hexapod_com_calculator' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'hexapod_com_calculator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'hexapod_com_calculator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'hexapod_com_calculator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator', 'merge_install': False, 'path': '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_com_calculator', 'symlink_install': False, 'test_result_base': None}
+[0.317s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_msgs' with build type 'ament_cmake'
+[0.320s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_msgs'
+[0.322s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.328s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_kinematics_py' with build type 'ament_python'
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexapod_kinematics_py', 'ament_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/hook/ament_prefix_path.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/hook/ament_prefix_path.dsv'
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/hook/ament_prefix_path.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.335s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alec/Documents/SpiderBot/ros2_ws/src/imu_interface' with build type 'ament_python'
+[0.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'ament_prefix_path')
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/hook/ament_prefix_path.ps1'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/hook/ament_prefix_path.dsv'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/hook/ament_prefix_path.sh'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.342s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alec/Documents/SpiderBot/ros2_ws/src/servo_control' with build type 'ament_python'
+[0.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'ament_prefix_path')
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/ament_prefix_path.ps1'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/ament_prefix_path.dsv'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/ament_prefix_path.sh'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alec/Documents/SpiderBot/ros2_ws/src/support_polygon_calculator' with build type 'ament_cmake'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alec/Documents/SpiderBot/ros2_ws/src/support_polygon_calculator'
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs -- -j20 -l20
+[0.644s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_kinematics_py'
+[0.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.896s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alec/Documents/SpiderBot/ros2_ws/src/imu_interface'
+[0.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.151s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alec/Documents/SpiderBot/ros2_ws/src/servo_control'
+[1.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator -- -j20 -l20
+[1.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_kinematics_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexapod_kinematics_py build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/install.log --single-version-externally-managed install_data
+[1.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/src/servo_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_control build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/install.log --single-version-externally-managed install_data
+[1.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/src/imu_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/imu_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_interface build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/imu_interface/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/imu_interface/install.log --single-version-externally-managed install_data
+[2.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/src/servo_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_control build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/install.log --single-version-externally-managed install_data
+[2.417s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control' for CMake module files
+[2.418s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control' for CMake config files
+[2.419s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib'
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/bin'
+[2.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'path')
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/path.ps1'
+[2.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/path.dsv'
+[2.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/path.sh'
+[2.423s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/pkgconfig/servo_control.pc'
+[2.423s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages'
+[2.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'pythonpath')
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/pythonpath.ps1'
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/pythonpath.dsv'
+[2.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/pythonpath.sh'
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/bin'
+[2.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'pythonscriptspath')
+[2.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/pythonscriptspath.ps1'
+[2.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/pythonscriptspath.dsv'
+[2.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/hook/pythonscriptspath.sh'
+[2.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_control)
+[2.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/package.ps1'
+[2.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/package.dsv'
+[2.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/package.sh'
+[2.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/package.bash'
+[2.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/package.zsh'
+[2.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/colcon-core/packages/servo_control)
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py' for CMake module files
+[2.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_kinematics_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexapod_kinematics_py build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/install.log --single-version-externally-managed install_data
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py' for CMake config files
+[2.440s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib'
+[2.440s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/bin'
+[2.440s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/pkgconfig/hexapod_kinematics_py.pc'
+[2.440s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages'
+[2.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexapod_kinematics_py', 'pythonpath')
+[2.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/hook/pythonpath.ps1'
+[2.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/hook/pythonpath.dsv'
+[2.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/hook/pythonpath.sh'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/bin'
+[2.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hexapod_kinematics_py)
+[2.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/package.ps1'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/package.dsv'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/package.sh'
+[2.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/package.bash'
+[2.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py/package.zsh'
+[2.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/colcon-core/packages/hexapod_kinematics_py)
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface' for CMake module files
+[2.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/src/imu_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/imu_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_interface build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/imu_interface/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/imu_interface/install.log --single-version-externally-managed install_data
+[2.464s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface' for CMake config files
+[2.465s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/lib'
+[2.465s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/bin'
+[2.465s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/lib/pkgconfig/imu_interface.pc'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/lib/python3.12/site-packages'
+[2.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'pythonpath')
+[2.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/hook/pythonpath.ps1'
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/hook/pythonpath.dsv'
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/hook/pythonpath.sh'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/bin'
+[2.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_interface)
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/package.ps1'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/package.dsv'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/package.sh'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/package.bash'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/imu_interface/package.zsh'
+[2.473s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alec/Documents/SpiderBot/ros2_ws/install/imu_interface/share/colcon-core/packages/imu_interface)
+[6.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs -- -j20 -l20
+[6.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs
+[6.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hexapod_msgs)
+[6.368s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs' for CMake module files
+[6.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs
+[6.371s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs' for CMake config files
+[6.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexapod_msgs', 'cmake_prefix_path')
+[6.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/cmake_prefix_path.ps1'
+[6.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/cmake_prefix_path.dsv'
+[6.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/cmake_prefix_path.sh'
+[6.375s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib'
+[6.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexapod_msgs', 'ld_library_path_lib')
+[6.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/ld_library_path_lib.ps1'
+[6.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/ld_library_path_lib.dsv'
+[6.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/ld_library_path_lib.sh'
+[6.377s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/bin'
+[6.377s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/pkgconfig/hexapod_msgs.pc'
+[6.378s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages'
+[6.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexapod_msgs', 'pythonpath')
+[6.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/pythonpath.ps1'
+[6.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/pythonpath.dsv'
+[6.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/pythonpath.sh'
+[6.380s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/bin'
+[6.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.ps1'
+[6.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.dsv'
+[6.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.sh'
+[6.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.bash'
+[6.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.zsh'
+[6.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/colcon-core/packages/hexapod_msgs)
+[6.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hexapod_msgs)
+[6.386s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs' for CMake module files
+[6.387s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs' for CMake config files
+[6.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexapod_msgs', 'cmake_prefix_path')
+[6.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/cmake_prefix_path.ps1'
+[6.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/cmake_prefix_path.dsv'
+[6.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/cmake_prefix_path.sh'
+[6.390s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib'
+[6.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexapod_msgs', 'ld_library_path_lib')
+[6.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/ld_library_path_lib.ps1'
+[6.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/ld_library_path_lib.dsv'
+[6.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/ld_library_path_lib.sh'
+[6.392s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/bin'
+[6.393s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/pkgconfig/hexapod_msgs.pc'
+[6.393s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages'
+[6.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexapod_msgs', 'pythonpath')
+[6.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/pythonpath.ps1'
+[6.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/pythonpath.dsv'
+[6.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/hook/pythonpath.sh'
+[6.395s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/bin'
+[6.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.ps1'
+[6.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.dsv'
+[6.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.sh'
+[6.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.bash'
+[6.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.zsh'
+[6.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/colcon-core/packages/hexapod_msgs)
+[6.400s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_com_calculator' with build type 'ament_python'
+[6.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexapod_com_calculator', 'ament_prefix_path')
+[6.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/hook/ament_prefix_path.ps1'
+[6.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/hook/ament_prefix_path.dsv'
+[6.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/hook/ament_prefix_path.sh'
+[6.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.664s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_com_calculator'
+[6.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_com_calculator': AMENT_PREFIX_PATH=/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/python3.12/site-packages:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexapod_com_calculator build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/install.log --single-version-externally-managed install_data
+[7.879s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator' for CMake module files
+[7.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_com_calculator' returned '0': AMENT_PREFIX_PATH=/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/python3.12/site-packages:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexapod_com_calculator build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/install.log --single-version-externally-managed install_data
+[7.881s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator' for CMake config files
+[7.882s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib'
+[7.882s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/bin'
+[7.882s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/pkgconfig/hexapod_com_calculator.pc'
+[7.882s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/python3.12/site-packages'
+[7.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexapod_com_calculator', 'pythonpath')
+[7.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/hook/pythonpath.ps1'
+[7.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/hook/pythonpath.dsv'
+[7.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/hook/pythonpath.sh'
+[7.885s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/bin'
+[7.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hexapod_com_calculator)
+[7.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/package.ps1'
+[7.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/package.dsv'
+[7.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/package.sh'
+[7.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/package.bash'
+[7.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator/package.zsh'
+[7.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/colcon-core/packages/hexapod_com_calculator)
+[26.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator -- -j20 -l20
+[26.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator
+[26.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(support_polygon_calculator)
+[26.065s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator' for CMake module files
+[26.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator
+[26.066s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator' for CMake config files
+[26.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('support_polygon_calculator', 'cmake_prefix_path')
+[26.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/hook/cmake_prefix_path.ps1'
+[26.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/hook/cmake_prefix_path.dsv'
+[26.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/hook/cmake_prefix_path.sh'
+[26.068s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/lib'
+[26.068s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/bin'
+[26.068s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/lib/pkgconfig/support_polygon_calculator.pc'
+[26.068s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/lib/python3.12/site-packages'
+[26.069s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/bin'
+[26.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.ps1'
+[26.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.dsv'
+[26.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.sh'
+[26.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.bash'
+[26.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.zsh'
+[26.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/colcon-core/packages/support_polygon_calculator)
+[26.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(support_polygon_calculator)
+[26.071s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator' for CMake module files
+[26.072s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator' for CMake config files
+[26.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('support_polygon_calculator', 'cmake_prefix_path')
+[26.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/hook/cmake_prefix_path.ps1'
+[26.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/hook/cmake_prefix_path.dsv'
+[26.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/hook/cmake_prefix_path.sh'
+[26.073s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/lib'
+[26.074s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/bin'
+[26.074s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/lib/pkgconfig/support_polygon_calculator.pc'
+[26.074s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/lib/python3.12/site-packages'
+[26.074s] Level 1:colcon.colcon_core.environment:checking '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/bin'
+[26.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.ps1'
+[26.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.dsv'
+[26.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.sh'
+[26.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.bash'
+[26.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.zsh'
+[26.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/colcon-core/packages/support_polygon_calculator)
+[26.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.077s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.084s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.084s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.084s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.106s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.106s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alec/Documents/SpiderBot/ros2_ws/install/local_setup.ps1'
+[26.107s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alec/Documents/SpiderBot/ros2_ws/install/_local_setup_util_ps1.py'
+[26.108s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alec/Documents/SpiderBot/ros2_ws/install/setup.ps1'
+[26.110s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alec/Documents/SpiderBot/ros2_ws/install/local_setup.sh'
+[26.110s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alec/Documents/SpiderBot/ros2_ws/install/_local_setup_util_sh.py'
+[26.111s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alec/Documents/SpiderBot/ros2_ws/install/setup.sh'
+[26.112s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alec/Documents/SpiderBot/ros2_ws/install/local_setup.bash'
+[26.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alec/Documents/SpiderBot/ros2_ws/install/setup.bash'
+[26.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alec/Documents/SpiderBot/ros2_ws/install/local_setup.zsh'
+[26.114s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alec/Documents/SpiderBot/ros2_ws/install/setup.zsh'

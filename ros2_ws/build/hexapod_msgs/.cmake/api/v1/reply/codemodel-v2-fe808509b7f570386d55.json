@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e2db281baedac0bab18b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "hexapod_msgs__py",
+					"jsonFile" : "directory-hexapod_msgs__py-a0e6e1daf8a2ee48c789.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs/hexapod_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "hexapod_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hexapod_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hexapod_msgs_egg-e580cb65d97c77756e0b.json",
+					"name" : "ament_cmake_python_build_hexapod_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hexapod_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hexapod_msgs-9dbda4cda408e0e18bd2.json",
+					"name" : "ament_cmake_python_copy_hexapod_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs-a9f32ff17b57621de07e.json",
+					"name" : "hexapod_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs__cpp-41166f27bba0331f9766.json",
+					"name" : "hexapod_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hexapod_msgs__py::@5752280e083b7f67d87c",
+					"jsonFile" : "target-hexapod_msgs__py-035741201841da786aa3.json",
+					"name" : "hexapod_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs__rosidl_generator_c-89ed2ad6ffbf15ca7ba4.json",
+					"name" : "hexapod_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs__rosidl_generator_py-3ada9cbdebf3f475ca5c.json",
+					"name" : "hexapod_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs__rosidl_generator_type_description-29cd71bac21dcdd76c7c.json",
+					"name" : "hexapod_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs__rosidl_typesupport_c-1ce9569294fb64d35d25.json",
+					"name" : "hexapod_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs__rosidl_typesupport_cpp-7fa2e1aba1a452f186e0.json",
+					"name" : "hexapod_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs__rosidl_typesupport_fastrtps_c-0e70ed9f3163ae1285e5.json",
+					"name" : "hexapod_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs__rosidl_typesupport_fastrtps_cpp-335aff1e3c158c1d5ce8.json",
+					"name" : "hexapod_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs__rosidl_typesupport_introspection_c-330fb135f56d9fdb5778.json",
+					"name" : "hexapod_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs__rosidl_typesupport_introspection_cpp-17f0463cc435e66cc1b2.json",
+					"name" : "hexapod_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs_s__rosidl_typesupport_c-23ae79ccb6ab53394489.json",
+					"name" : "hexapod_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs_s__rosidl_typesupport_fastrtps_c-9a2ed5f3c4e4e19427cf.json",
+					"name" : "hexapod_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs_s__rosidl_typesupport_introspection_c-553891cb37f8f8533082.json",
+					"name" : "hexapod_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexapod_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexapod_msgs_uninstall-4e12f60b9f96e67e6a06.json",
+					"name" : "hexapod_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3de0ead6559193936200.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_msgs",
+		"source" : "/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

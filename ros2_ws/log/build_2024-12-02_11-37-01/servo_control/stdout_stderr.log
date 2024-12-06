@@ -1,0 +1,40 @@
+running egg_info
+writing ../../build/servo_control/servo_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/servo_control/servo_control.egg-info/dependency_links.txt
+writing entry points to ../../build/servo_control/servo_control.egg-info/entry_points.txt
+writing requirements to ../../build/servo_control/servo_control.egg-info/requires.txt
+writing top-level names to ../../build/servo_control/servo_control.egg-info/top_level.txt
+reading manifest file '../../build/servo_control/servo_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/servo_control/servo_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build
+creating /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib
+creating /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control
+copying servo_control/__init__.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control
+copying servo_control/servo_control_node.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control
+creating /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/utilities
+copying servo_control/utilities/calibrate_servos.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/utilities
+copying servo_control/utilities/__init__.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/utilities
+running install
+running install_lib
+creating /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control
+copying /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/__init__.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control
+creating /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/utilities
+copying /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/utilities/calibrate_servos.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/utilities
+copying /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/utilities/__init__.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/utilities
+copying /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/servo_control_node.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control
+byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/utilities/calibrate_servos.py to calibrate_servos.cpython-312.pyc
+byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/utilities/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/servo_control_node.py to servo_control_node.cpython-312.pyc
+running install_data
+copying package.xml -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control
+copying launch/servo_control_launch.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/launch
+running install_egg_info
+removing '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/servo_control/servo_control.egg-info to /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing calibrate_servos script to /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/servo_control
+Installing servo_control_node script to /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/servo_control
+writing list of installed files to '/home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/install.log'

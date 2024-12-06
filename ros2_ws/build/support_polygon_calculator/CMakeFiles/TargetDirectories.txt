@@ -1,0 +1,10 @@
+/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator/CMakeFiles/uninstall.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator/CMakeFiles/support_polygon_calculator_uninstall.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator/CMakeFiles/support_polygon_node.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator/CMakeFiles/test.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator/CMakeFiles/edit_cache.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator/CMakeFiles/rebuild_cache.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator/CMakeFiles/list_install_components.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator/CMakeFiles/install.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator/CMakeFiles/install/local.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator/CMakeFiles/install/strip.dir

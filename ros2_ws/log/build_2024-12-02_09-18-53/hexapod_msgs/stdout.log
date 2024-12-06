@@ -1,0 +1,212 @@
+[  1%] Built target hexapod_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_copy_hexapod_msgs
+[  3%] Built target hexapod_msgs__cpp
+[ 25%] Built target hexapod_msgs__rosidl_generator_c
+[ 34%] Built target hexapod_msgs__rosidl_typesupport_introspection_c
+[ 43%] Built target hexapod_msgs__rosidl_typesupport_cpp
+[ 53%] Built target hexapod_msgs__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target hexapod_msgs__rosidl_typesupport_fastrtps_c
+[ 71%] Built target hexapod_msgs__rosidl_typesupport_c
+[ 81%] Built target hexapod_msgs__rosidl_typesupport_introspection_cpp
+[ 81%] Built target hexapod_msgs
+[ 82%] Built target hexapod_msgs__py
+[ 90%] Built target hexapod_msgs__rosidl_generator_py
+[ 93%] Built target hexapod_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] Built target hexapod_msgs_s__rosidl_typesupport_c
+[100%] Built target hexapod_msgs_s__rosidl_typesupport_introspection_c
+running egg_info
+writing hexapod_msgs.egg-info/PKG-INFO
+writing dependency_links to hexapod_msgs.egg-info/dependency_links.txt
+writing top-level names to hexapod_msgs.egg-info/top_level.txt
+reading manifest file 'hexapod_msgs.egg-info/SOURCES.txt'
+writing manifest file 'hexapod_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_hexapod_msgs_egg
+-- Install configuration: ""
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/ament_index/resource_index/rosidl_interfaces/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/JointAngles.json
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/Polygon.json
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/LegCommands.json
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/LegPositions.json
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/leg_commands.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__functions.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__type_support.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__type_support.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__functions.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__functions.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__functions.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__type_support.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__type_support.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__description.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__description.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__description.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__functions.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__type_support.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__struct.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__type_support.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__struct.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__functions.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__description.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__functions.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__type_support.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__functions.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__struct.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__struct.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__type_support.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/polygon.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/leg_positions.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/joint_angles.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/environment/library_path.sh
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/environment/library_path.dsv
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/libhexapod_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/libhexapod_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__type_support.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__type_support.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__type_support.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__type_support.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/libhexapod_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/libhexapod_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/leg_positions.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/joint_angles.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__type_support.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__builder.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__traits.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__builder.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__builder.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__builder.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__struct.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__type_support.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__struct.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__traits.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__traits.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__type_support.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__struct.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__traits.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__struct.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__type_support.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/leg_commands.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/polygon.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/dds_fastrtps
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/libhexapod_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__type_support.cpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__type_support.cpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_commands__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/joint_angles__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/polygon__type_support.cpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/include/hexapod_msgs/hexapod_msgs/msg/detail/leg_positions__type_support.cpp
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/libhexapod_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/libhexapod_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/environment/pythonpath.sh
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/environment/pythonpath.dsv
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs-0.1.0-py3.12.egg-info
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs-0.1.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs-0.1.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/hexapod_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/_hexapod_msgs_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/_hexapod_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/hexapod_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/__init__.py
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg/_joint_angles.py
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg/_leg_commands.py
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg/_polygon.py
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg/_leg_positions_s.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg/__init__.py
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg/_polygon_s.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg/_leg_positions.py
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg/_leg_commands_s.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg/_joint_angles_s.c
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/hexapod_msgs_s__rosidl_typesupport_c.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/_hexapod_msgs_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs'...
+Listing '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/msg'...
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/hexapod_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/hexapod_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/python3.12/site-packages/hexapod_msgs/hexapod_msgs_s__rosidl_typesupport_c.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/lib/libhexapod_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/JointAngles.idl
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/Polygon.idl
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/LegCommands.idl
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/LegPositions.idl
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/JointAngles.msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/Polygon.msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/LegCommands.msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/msg/LegPositions.msg
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/ament_index/resource_index/package_run_dependencies/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/ament_index/resource_index/parent_prefix_path/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/environment/path.sh
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/environment/path.dsv
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/local_setup.bash
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/local_setup.sh
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/local_setup.zsh
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/local_setup.dsv
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.dsv
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/ament_index/resource_index/packages/hexapod_msgs
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/export_hexapod_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/export_hexapod_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/export_hexapod_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/export_hexapod_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/hexapod_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/hexapod_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/hexapod_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/hexapod_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/export_hexapod_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/export_hexapod_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/export_hexapod_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/hexapod_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/hexapod_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/hexapod_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/hexapod_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/export_hexapod_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/export_hexapod_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/hexapod_msgsConfig.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/cmake/hexapod_msgsConfig-version.cmake
+-- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_msgs/share/hexapod_msgs/package.xml

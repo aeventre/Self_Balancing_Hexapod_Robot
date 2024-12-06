@@ -1,0 +1,36 @@
+[0.716s] Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_com_calculator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexapod_com_calculator build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/install.log --single-version-externally-managed install_data
+[0.932s] running egg_info
+[0.932s] creating ../../build/hexapod_com_calculator/hexapod_com_calculator.egg-info
+[0.945s] writing ../../build/hexapod_com_calculator/hexapod_com_calculator.egg-info/PKG-INFO
+[0.945s] writing dependency_links to ../../build/hexapod_com_calculator/hexapod_com_calculator.egg-info/dependency_links.txt
+[0.945s] writing entry points to ../../build/hexapod_com_calculator/hexapod_com_calculator.egg-info/entry_points.txt
+[0.945s] writing requirements to ../../build/hexapod_com_calculator/hexapod_com_calculator.egg-info/requires.txt
+[0.945s] writing top-level names to ../../build/hexapod_com_calculator/hexapod_com_calculator.egg-info/top_level.txt
+[0.945s] writing manifest file '../../build/hexapod_com_calculator/hexapod_com_calculator.egg-info/SOURCES.txt'
+[0.973s] reading manifest file '../../build/hexapod_com_calculator/hexapod_com_calculator.egg-info/SOURCES.txt'
+[0.974s] writing manifest file '../../build/hexapod_com_calculator/hexapod_com_calculator.egg-info/SOURCES.txt'
+[0.974s] running build
+[0.974s] running build_py
+[0.974s] creating /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/build
+[0.974s] creating /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/build/lib
+[0.974s] creating /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/build/lib/hexapod_com_calculator
+[0.974s] copying hexapod_com_calculator/__init__.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/build/lib/hexapod_com_calculator
+[0.974s] copying hexapod_com_calculator/com_node.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/build/lib/hexapod_com_calculator
+[0.974s] running install
+[0.979s] running install_lib
+[0.993s] creating /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/python3.12/site-packages/hexapod_com_calculator
+[0.993s] copying /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/build/lib/hexapod_com_calculator/__init__.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/python3.12/site-packages/hexapod_com_calculator
+[0.993s] copying /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/build/lib/hexapod_com_calculator/com_node.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/python3.12/site-packages/hexapod_com_calculator
+[0.993s] byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/python3.12/site-packages/hexapod_com_calculator/__init__.py to __init__.cpython-312.pyc
+[0.993s] byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/python3.12/site-packages/hexapod_com_calculator/com_node.py to com_node.cpython-312.pyc
+[0.994s] running install_data
+[0.994s] creating /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/ament_index
+[0.994s] creating /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/ament_index/resource_index
+[0.995s] creating /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/ament_index/resource_index/packages
+[0.995s] copying resource/hexapod_com_calculator -> /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/ament_index/resource_index/packages
+[0.995s] copying package.xml -> /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/share/hexapod_com_calculator
+[0.995s] running install_egg_info
+[1.009s] Copying ../../build/hexapod_com_calculator/hexapod_com_calculator.egg-info to /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/python3.12/site-packages/hexapod_com_calculator-0.1.0-py3.12.egg-info
+[1.009s] running install_scripts
+[1.097s] Installing com_calculator script to /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator/lib/hexapod_com_calculator
+[1.097s] writing list of installed files to '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_com_calculator/install.log'

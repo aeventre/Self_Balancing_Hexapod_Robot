@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/dependency_links.txt
+writing entry points to ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/entry_points.txt
+writing requirements to ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/requires.txt
+writing top-level names to ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/top_level.txt
+reading manifest file '../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/share/hexapod_kinematics_py
+running install_egg_info
+removing '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages/hexapod_kinematics_py-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info to /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages/hexapod_kinematics_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing ik_node script to /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/hexapod_kinematics_py
+writing list of installed files to '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/install.log'

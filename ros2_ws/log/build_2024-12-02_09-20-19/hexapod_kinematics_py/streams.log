@@ -1,0 +1,24 @@
+[0.704s] Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_kinematics_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexapod_kinematics_py build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/install.log --single-version-externally-managed install_data
+[0.886s] running egg_info
+[0.898s] writing ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/PKG-INFO
+[0.899s] writing dependency_links to ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/dependency_links.txt
+[0.899s] writing entry points to ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/entry_points.txt
+[0.899s] writing requirements to ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/requires.txt
+[0.899s] writing top-level names to ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/top_level.txt
+[0.924s] reading manifest file '../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/SOURCES.txt'
+[0.925s] writing manifest file '../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info/SOURCES.txt'
+[0.925s] running build
+[0.925s] running build_py
+[0.925s] copying hexapod_kinematics_py/ik_node.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/build/lib/hexapod_kinematics_py
+[0.926s] running install
+[0.930s] running install_lib
+[0.943s] copying /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/build/lib/hexapod_kinematics_py/ik_node.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages/hexapod_kinematics_py
+[0.944s] byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages/hexapod_kinematics_py/ik_node.py to ik_node.cpython-312.pyc
+[0.945s] running install_data
+[0.945s] running install_egg_info
+[0.958s] removing '/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages/hexapod_kinematics_py-0.0.0-py3.12.egg-info' (and everything under it)
+[0.959s] Copying ../../build/hexapod_kinematics_py/hexapod_kinematics_py.egg-info to /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages/hexapod_kinematics_py-0.0.0-py3.12.egg-info
+[0.959s] running install_scripts
+[1.045s] Installing ik_node script to /home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/hexapod_kinematics
+[1.045s] writing list of installed files to '/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/install.log'
+[1.067s] Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/src/hexapod_kinematics_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hexapod_kinematics_py build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/hexapod_kinematics_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/alec/Documents/SpiderBot/ros2_ws/build/kinematics
+[  8%] [32mBuilding CXX object CMakeFiles/inverse_kinematics_node.dir/src/inverse_kinematics_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/kinematics_test.dir/src/Hexapod.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/forward_kinematics_node.dir/src/forward_kinematics_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/kinematics_test.dir/src/SpiderLeg.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/inverse_kinematics_node.dir/src/Hexapod.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kinematics_test.dir/src/main.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/inverse_kinematics_node.dir/src/SpiderLeg.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/forward_kinematics_node.dir/src/SpiderLeg.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/forward_kinematics_node.dir/src/Hexapod.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable kinematics_test[0m
+[ 83%] Built target kinematics_test
+[ 91%] [32m[1mLinking CXX executable forward_kinematics_node[0m
+[100%] [32m[1mLinking CXX executable inverse_kinematics_node[0m
+[100%] Built target forward_kinematics_node
+[100%] Built target inverse_kinematics_node
+-- Install configuration: ""
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/lib/kinematics/forward_kinematics_node
+-- Set non-toolchain portion of runtime path of "/home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/lib/kinematics/forward_kinematics_node" to ""
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/lib/kinematics/inverse_kinematics_node
+-- Set non-toolchain portion of runtime path of "/home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/lib/kinematics/inverse_kinematics_node" to ""
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/lib/kinematics/kinematics_test
+-- Set non-toolchain portion of runtime path of "/home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/lib/kinematics/kinematics_test" to ""
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/include/
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/include//SpiderLeg.hpp
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/include//Hexapod.hpp
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/launch
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/launch/inverse_kinematics.launch.py
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/launch/forward_kinematics.launch.py
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/ament_index/resource_index/package_run_dependencies/kinematics
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/ament_index/resource_index/parent_prefix_path/kinematics
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/environment/ament_prefix_path.sh
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/environment/ament_prefix_path.dsv
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/environment/path.sh
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/environment/path.dsv
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/local_setup.bash
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/local_setup.sh
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/local_setup.zsh
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/local_setup.dsv
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/package.dsv
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/ament_index/resource_index/packages/kinematics
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/cmake/kinematicsConfig.cmake
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/cmake/kinematicsConfig-version.cmake
+-- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/kinematics/share/kinematics/package.xml

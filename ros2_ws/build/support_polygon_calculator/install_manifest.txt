@@ -1,0 +1,16 @@
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/lib/support_polygon_calculator/support_polygon_node
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/ament_index/resource_index/package_run_dependencies/support_polygon_calculator
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/ament_index/resource_index/parent_prefix_path/support_polygon_calculator
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/environment/ament_prefix_path.sh
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/environment/ament_prefix_path.dsv
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/environment/path.sh
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/environment/path.dsv
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/local_setup.bash
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/local_setup.sh
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/local_setup.zsh
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/local_setup.dsv
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.dsv
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/ament_index/resource_index/packages/support_polygon_calculator
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/cmake/support_polygon_calculatorConfig.cmake
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/cmake/support_polygon_calculatorConfig-version.cmake
+/home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.xml

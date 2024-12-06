@@ -8595,7 +8595,8 @@
 			(property pad_prop_heatsink)
 			(layers "F.Cu" "F.Mask")
 			(net 2 "GND")
-			(pintype "output")
+			(pinfunction "GND")
+			(pintype "input")
 			(zone_connect 2)
 			(uuid "ed20b045-cd5b-48e6-bda7-76a4dc6d981a")
 		)
@@ -9213,7 +9214,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a618cb4b-5fac-497d-b5ff-4b3f6481d689")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -12290,7 +12291,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/eb4e1cf4-d5f8-41fb-b42a-0a24647f4d70")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -15627,7 +15628,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/a66dab22-62ef-4bc4-895c-68264751564f")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -15942,7 +15943,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/170655a1-f9a9-4b02-a9ff-81989eb78832")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -16103,7 +16104,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/a2dded04-2f02-466e-9469-9e311701fa66")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.87 -1.33)
@@ -20764,7 +20765,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/df8697bc-3c2b-4ca2-9aa8-06356da52a15")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -25922,7 +25923,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/8b799e6f-51c1-4e0c-aaf2-13970cf5ee0d")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -27755,7 +27756,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/1598ec24-903d-4a49-9e71-e55a26698994")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.58 -25.46)
@@ -31703,7 +31704,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d719a86b-109e-4f8c-8218-269b8a6cea32")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.254724 -0.5225)
@@ -34484,7 +34485,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7dcba822-32d7-42cd-ad02-2bef7a7a1d87")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.254724 -0.5225)
@@ -34731,7 +34732,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a7900c1e-1b34-4d06-8e8b-ac96dbd93a06")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.254724 -0.5225)
@@ -35974,7 +35975,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/975fa496-97bf-4bf2-ad78-099948afd84e")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.254724 -0.5225)
@@ -36976,7 +36977,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f78a8d90-8bdd-46ae-98f7-40c89c1a3c8a")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.254724 -0.5225)
@@ -37484,7 +37485,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bc010f40-6e2a-4043-b03e-959c71d3c942")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.254724 -0.5225)
@@ -39510,7 +39511,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dfa6bb99-f173-434b-bc77-210514eb6fb8")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.254724 -0.5225)
@@ -41040,7 +41041,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/75488d38-102b-4b09-924d-c863e7f0799e")
 		(sheetname "Root")
-		(sheetfile "Hexapod_bot.kicad_sch")
+		(sheetfile "spiderbot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.254724 -0.5225)

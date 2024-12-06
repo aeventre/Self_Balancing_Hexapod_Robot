@@ -1,0 +1,22 @@
+[0.274s] Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator -- -j20 -l20
+[0.335s] [100%] Built target support_polygon_node
+[0.344s] Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator -- -j20 -l20
+[0.345s] Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator
+[0.353s] -- Install configuration: ""
+[0.353s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/lib/support_polygon_calculator/support_polygon_node
+[0.353s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/ament_index/resource_index/package_run_dependencies/support_polygon_calculator
+[0.353s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/ament_index/resource_index/parent_prefix_path/support_polygon_calculator
+[0.353s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/environment/ament_prefix_path.sh
+[0.353s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/environment/ament_prefix_path.dsv
+[0.353s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/environment/path.sh
+[0.353s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/environment/path.dsv
+[0.354s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/local_setup.bash
+[0.354s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/local_setup.sh
+[0.354s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/local_setup.zsh
+[0.354s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/local_setup.dsv
+[0.354s] -- Installing: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.dsv
+[0.354s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/ament_index/resource_index/packages/support_polygon_calculator
+[0.354s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/cmake/support_polygon_calculatorConfig.cmake
+[0.354s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/cmake/support_polygon_calculatorConfig-version.cmake
+[0.354s] -- Up-to-date: /home/alec/Documents/SpiderBot/ros2_ws/install/support_polygon_calculator/share/support_polygon_calculator/package.xml
+[0.355s] Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_kinematics_py:/home/alec/Documents/SpiderBot/ros2_ws/install/hexapod_com_calculator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alec/Documents/SpiderBot/ros2_ws/build/support_polygon_calculator

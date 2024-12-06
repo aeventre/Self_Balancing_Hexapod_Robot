@@ -1,0 +1,2 @@
+[console_scripts]
+imu_interface_node = imu_interface.imu_interface_node:main

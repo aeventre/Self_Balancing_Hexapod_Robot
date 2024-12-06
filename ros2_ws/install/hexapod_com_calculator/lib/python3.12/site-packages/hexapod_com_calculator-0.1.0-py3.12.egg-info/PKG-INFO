@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hexapod-com-calculator
+Version: 0.1.0
+Summary: A package for calculating the center of mass of a hexapod robot.
+Maintainer: Your Name
+Maintainer-email: your.email@example.com
+License: Apache-2.0

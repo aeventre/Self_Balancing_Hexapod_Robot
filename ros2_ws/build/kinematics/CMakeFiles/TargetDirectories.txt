@@ -1,0 +1,12 @@
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/uninstall.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/kinematics_uninstall.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/forward_kinematics_node.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/inverse_kinematics_node.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/kinematics_test.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/test.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/edit_cache.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/rebuild_cache.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/list_install_components.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/install.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/install/local.dir
+/home/alec/Documents/SpiderBot/ros2_ws/build/kinematics/CMakeFiles/install/strip.dir

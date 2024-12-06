@@ -1,0 +1,42 @@
+[0.961s] Invoking command in '/home/alec/Documents/SpiderBot/ros2_ws/src/servo_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_control build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/install.log --single-version-externally-managed install_data
+[1.270s] running egg_info
+[1.292s] writing ../../build/servo_control/servo_control.egg-info/PKG-INFO
+[1.292s] writing dependency_links to ../../build/servo_control/servo_control.egg-info/dependency_links.txt
+[1.293s] writing entry points to ../../build/servo_control/servo_control.egg-info/entry_points.txt
+[1.293s] writing requirements to ../../build/servo_control/servo_control.egg-info/requires.txt
+[1.293s] writing top-level names to ../../build/servo_control/servo_control.egg-info/top_level.txt
+[1.334s] reading manifest file '../../build/servo_control/servo_control.egg-info/SOURCES.txt'
+[1.335s] writing manifest file '../../build/servo_control/servo_control.egg-info/SOURCES.txt'
+[1.335s] running build
+[1.335s] running build_py
+[1.335s] creating /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build
+[1.336s] creating /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib
+[1.336s] creating /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control
+[1.336s] copying servo_control/__init__.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control
+[1.336s] copying servo_control/servo_control_node.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control
+[1.336s] creating /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/utilities
+[1.336s] copying servo_control/utilities/calibrate_servos.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/utilities
+[1.336s] copying servo_control/utilities/__init__.py -> /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/utilities
+[1.336s] running install
+[1.344s] running install_lib
+[1.364s] creating /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control
+[1.364s] copying /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/__init__.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control
+[1.365s] creating /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/utilities
+[1.365s] copying /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/utilities/calibrate_servos.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/utilities
+[1.365s] copying /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/utilities/__init__.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/utilities
+[1.365s] copying /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build/lib/servo_control/servo_control_node.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control
+[1.365s] byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/__init__.py to __init__.cpython-312.pyc
+[1.366s] byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/utilities/calibrate_servos.py to calibrate_servos.cpython-312.pyc
+[1.367s] byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/utilities/__init__.py to __init__.cpython-312.pyc
+[1.367s] byte-compiling /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control/servo_control_node.py to servo_control_node.cpython-312.pyc
+[1.369s] running install_data
+[1.369s] copying package.xml -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control
+[1.369s] copying launch/servo_control_launch.py -> /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/share/servo_control/launch
+[1.369s] running install_egg_info
+[1.391s] removing '/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control-0.0.0-py3.12.egg-info' (and everything under it)
+[1.391s] Copying ../../build/servo_control/servo_control.egg-info to /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages/servo_control-0.0.0-py3.12.egg-info
+[1.392s] running install_scripts
+[1.537s] Installing calibrate_servos script to /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/servo_control
+[1.538s] Installing servo_control_node script to /home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/servo_control
+[1.538s] writing list of installed files to '/home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/install.log'
+[1.573s] Invoked command in '/home/alec/Documents/SpiderBot/ros2_ws/src/servo_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alec/Documents/SpiderBot/ros2_ws/install/servo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_control build --build-base /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/build install --record /home/alec/Documents/SpiderBot/ros2_ws/build/servo_control/install.log --single-version-externally-managed install_data
