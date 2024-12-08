@@ -2,9 +2,6 @@
 Created by: **Alec Ventresca & Ella Hicks**
 ![20241202_131742](https://github.com/user-attachments/assets/5de234e7-d59f-4bf5-8e5d-8d2eb02bb3d5)
 
-
-## Table of Contents
-
 ## Overview
 ## Table of Contents
 
