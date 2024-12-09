@@ -7,7 +7,6 @@
 ## Table of Contents
 
 - [Software Design](#software-design)
-  - [Table of Contents](#table-of-contents)
   - [Instructions for Running the Software on the Pi](#instructions-for-running-the-software-on-the-pi)
     - [1. Setting Up the Virtual Environment](#1-setting-up-the-virtual-environment)
     - [2. Commands for Running Nodes](#2-commands-for-running-nodes)
