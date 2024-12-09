@@ -1,8 +1,7 @@
 # Hardware Design
 
 ## Table of Contents
-- [Hardware Design](#hardware-design)
-  - [Table of Contents](#table-of-contents)
+- [**Hardware Design**](#hardware-design)
   - [Overview](#overview)
   - [Structure](#structure)
   - [Electronics](#electronics)
