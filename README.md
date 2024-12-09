@@ -14,12 +14,6 @@ The primary goal of this project was to design a Hexapod Robot capable of perfor
 3. Develop modular software packages for control, movement computation, and sensing.
 4. Utilize ROS 2 Jazzy to coordinate the robot's operations.
 
-**Controller:** Raspberry Pi 4b  
-**OS:** Ubuntu 24.04 "noble"  
-**Framework:** Ros2  
-**Distro:** Jazzy
-
-
 ### Future Goals
 1. Developing the kinematic algorithms further to advance the robot's movement.
 2. Integrating a LIDAR sensor that would assist the robot in navigating its surroundings by providing object perception.
