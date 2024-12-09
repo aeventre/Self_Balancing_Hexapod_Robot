@@ -17,6 +17,18 @@ The main chips on the board are:
 - **LM393** - Op-amp that compares the battery voltage to the 5V line and will light up an LED and send a 0 to a GPIO pin when the batteries voltage gets too low
 
 The rest of the chips are for reducing the voltage from the battery to a 5V 3 amp max line and a 6V 20 amp max line. The 6V line is for powering the servos which tend to draw a lot of current. I do not expect 20 amps to ever get drawn on that line, it's about 3 just standing, and then I'd imagine 10 amps max when walking, but better safe then sorry.
+
+## Setting the I2C Address of the PCA9685  
+The I2C address of the PCA chips is determined by certain pin  
+
+From datasheet:  
+![image](https://github.com/user-attachments/assets/077c3241-b36b-435b-8d50-6b18a9e48571)
+
+JP1-JP6 on the back of the PCB correlates to A0-A5 for chip 1 (left side) and JP7-JP12 correlates to chip 2 (right side). Placing a
+jumper on the pin will bring it high and change the I2C address accordingly.  
+
+Currently the code is configured for a jumper placed on JP7. The address can be edited in the servo_control packages code.
+
 ## PCB Layout
 Front:   
 ![image](https://github.com/user-attachments/assets/dfdeaa73-c6c8-46eb-a4a2-f4136d9daac4)
