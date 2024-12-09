@@ -2,8 +2,13 @@
 
 **OS:** Ubuntu 24.04 "noble"  
 **Framework:** Ros2  
-**Distro:** Jazzy
-## Instructions for Setting up the Virtual Environment
+**Distro:** Jazzy  
+
+ROS2 Package Structure:  
+![Support Polygon](https://github.com/user-attachments/assets/2a590f97-79df-4a50-9e1c-7e0ff6e2a661)
+
+## Instructions for Running the Software on the Pi
+### **1. Setting Up the Virtual Environment**
 
 1. Clone the repository:
    ```bash
@@ -19,6 +24,33 @@
 4. In a New Terminal Source the workspace
     ```bash
     source ros2_ws/install/setup.bash
+
+### **2. Commands for Running Nodes**
+
+- **Support Polygon Calculator**:  
+  ```bash
+  ros2 launch support_polygon_calculator support_polygon_calculator.launch.py
+  ```  
+
+- **Servo Control**:  
+  ```bash
+  ros2 launch servo_control servo_control.launch.py
+  ```  
+
+- **IMU Interface**:  
+  ```bash
+  ros2 launch imu_interface imu_interface.launch.py
+  ```  
+
+- **Foot Sensor Package**:  
+  ```bash
+  ros2 launch foot_sensor foot_sensor.launch.py
+  ```  
+
+- **Static Balancing Package**:  
+  ```bash
+  ros2 launch static_balancer static_balancer.launch.py
+  ```  
 ## ROS2 Package Overview
 ### 1. **Support Polygon Calculator**
 - **Purpose**:  
@@ -180,30 +212,5 @@ colcon build
 source install/setup.bash
 ```
 
-### **2. Run Nodes**
 
-- **Support Polygon Calculator**:  
-  ```bash
-  ros2 launch support_polygon_calculator support_polygon_calculator.launch.py
-  ```  
-
-- **Servo Control**:  
-  ```bash
-  ros2 launch servo_control servo_control.launch.py
-  ```  
-
-- **IMU Interface**:  
-  ```bash
-  ros2 launch imu_interface imu_interface.launch.py
-  ```  
-
-- **Foot Sensor Package**:  
-  ```bash
-  ros2 launch foot_sensor foot_sensor.launch.py
-  ```  
-
-- **Static Balancing Package**:  
-  ```bash
-  ros2 launch static_balancer static_balancer.launch.py
-  ```  
 
