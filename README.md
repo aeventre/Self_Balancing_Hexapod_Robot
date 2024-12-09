@@ -11,9 +11,9 @@ Created by: **Alec Ventresca & Ella Hicks**
  - **[Self-Balacing Hexapod Robot](#self-balacing-hexapod-robot)**
    - [Overview](#overview)
    - [Future Ideas/Plans](#future-ideas)
-   - [Acknowledgments](#acknowledgments)
-- [**Hardware Design**](hardware/README.md)  
+   - [Acknowledgments](#acknowledgments) 
 - [**Software Design**](ros2_ws/README.md)
+  - [Overview](ros2_ws/README.md#overview)
   - [Instructions for Running the Software on the Pi](ros2_ws/README.md#instructions-for-running-the-software-on-the-pi)
     - [1. Setting Up the Virtual Environment](ros2_ws/README.md#1-setting-up-the-virtual-environment)
     - [2. Commands for Running Nodes](ros2_ws/README.md#2-commands-for-running-nodes)
@@ -26,6 +26,12 @@ Created by: **Alec Ventresca & Ella Hicks**
     - [6. Inverse and Forward Kinematics Package](ros2_ws/README.md#6-inverse-and-forward-kinematics-package)
     - [7. Center of Mass Calculator Package](ros2_ws/README.md#7-center-of-mass-calculator-package)
   - [ROS2 Topic List](ros2_ws/README.md#ros2-topic-list)
+- [**Hardware Design**](hardware/README.md) 
+  - [Overview](hardware/README.md#overview)
+  - [Structure](hardware/README.md#structure)
+  - [Electronics](hardware/README.md#electronics)
+    - [Setting the I2C Address of the PCA9685](hardware/README.md#setting-the-i2c-address-of-the-pca9685)
+  - [PCB Layout](hardware/README.md#pcb-layout)
 
 
 ## Overview
