@@ -1,8 +1,26 @@
 # Software Design
 
+## Table of Contents
+
+- [Software Design](#software-design)
+  - [Overview](#overview)
+  - [Instructions for Running the Software on the Pi](#instructions-for-running-the-software-on-the-pi)
+    - [1. Setting Up the Virtual Environment](#1-setting-up-the-virtual-environment)
+    - [2. Commands for Running Nodes](#2-commands-for-running-nodes)
+  - [ROS2 Package Overview](#ros2-package-overview)
+    - [1. Support Polygon Calculator](#1-support-polygon-calculator)
+    - [2. Servo Control](#2-servo-control)
+    - [3. IMU Interface](#3-imu-interface)
+    - [4. Foot Sensor Package](#4-foot-sensor-package)
+    - [5. Static Balancing Package](#5-static-balancing-package)
+    - [6. Inverse and Forward Kinematics Package](#6-inverse-and-forward-kinematics-package)
+    - [7. Center of Mass Calculator Package](#7-center-of-mass-calculator-package)
+  - [ROS2 Topic List](#ros2-topic-list)
+
+## Overview
 **OS:** Ubuntu 24.04 "noble"  
 **Framework:** Ros2  
-**Distro:** Jazzy  
+**Distro:** Jazzy    
 
 ## Table of Contents
 
@@ -45,6 +63,7 @@ ROS2 Package Structure:
 
     ```bash
     source ros2_ws/install/setup.bash  
+
 
 ### **2. Commands for Running Nodes**
 
