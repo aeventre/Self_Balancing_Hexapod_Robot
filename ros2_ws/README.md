@@ -1,4 +1,21 @@
 # Software Design
+
+## Instructions for Setting up the Virtual Environment
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aeventre/SpiderBot.git
+   cd SpiderBot/ros2_ws
+2. Run the setup script, this will create the environment an install all the python dependencies
+    ```bash
+    ./setup.sh
+3. Build the ROS2 workspace
+    ```bash
+    cd ros2_ws
+    colcon build
+4. In a New Terminal Source the workspace
+    ```bash
+    source ros2_ws/install/setup.bash
 ## ROS2 Package Overview
 ### 1. **Support Polygon Calculator**
 - **Purpose**:  
