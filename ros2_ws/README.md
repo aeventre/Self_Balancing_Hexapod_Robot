@@ -73,7 +73,7 @@
 
 - **Key Components**:  
   - `static_balancer.cpp`: Computes joint adjustments to keep the CoM within the support polygon.  
-  - `static_balancer.launch.py`: Launch file for the balancing node.  
+  - `static_balancer.launch.py`: Launch file for the balancing node.
 
 - **Subscribed Topics**:  
   - `/support_polygon` (geometry_msgs/PolygonStamped): The computed support polygon.  
@@ -81,7 +81,38 @@
   - `/grounded_foot_positions` (geometry_msgs/Polygon): Positions of grounded feet.  
 
 - **Published Topics**:  
-  - `/balancing_commands` (custom or std_msgs): Adjustments for servo control to maintain balance.  
+  - `/balancing_commands` (custom or std_msgs): Adjustments for servo control to maintain balance. 
+
+### 6. **Inverse and Forward Kinematics Package**
+- **Purpose**:
+  The inverse kinematics computes the necessary joint angles for the robot's legs based on the desired leg command. The forward kinematics calculates the positions of the feet based on the current joint angles.
+  
+- **Key Components**:
+  - `ik_node.py`: Subscribes to leg_commands to receive the desired foot positions, computes inverse kinematics to determine the required joint angles and publishes these joint angles to joint_angles.
+  - `kinematics.py`: Subscribes to the joint_angles, computes the 3D positions of the feet using forward kinematics, and publishes these positions to the foot_positions topic.
+
+- **Published Topics**:
+  - `/joint_angles`: Publishes the computed joint angles as an array. These angles are used by the servo motor controllers to move the robot's legs to the desired positions. (Inverse Kinematics)
+  - `/foot_positions`: Publishes the calculated 3D positions of the six feet, with each foot's position represented as [x, y, z]. (Forward Kinematics)
+ 
+- **Subscribed Topics**:
+  - `/leg_commands`: Receives an array of target positions for the robot's legs that guide the computation of joint angles needed to achieve the desired foot placements. (Inverse Kinematics)
+  - `/joint_angles`: Receives the current joint angles of the hexapod's legs with 3 angles (coxa, femur, tibia) and provides the input data to determine the 3D positions of the robot's feet. (Foward Kinematics)
+
+### 7. **Center of Mass Calculator Package**
+- **Purpose**:
+  Calculates the robot's center of mass in real-time and shares data with the static_balancer to ensure the center of mass remains within the support polygon.
+
+- **Key Components**:
+  - `com_calculator.py`: Calculates and publishes the center of mass of the hexapod robot by combining foot positions, contact statuses, and IMU orientation data, while accounting for the robot's geometry and offset of the IMU.
+
+- **Published Topics**:
+  - `/foot_positions`: Provides the 3D positions of each foot.
+  - `/foot_status`: Indicates which feet are in contact with the ground.
+  - `/imu/data`: Provides the IMU's oreitnation in quaternion format.
+ 
+- **Subscribed Topics**:
+  - `/center_of_mass`: Publishes the computed 3D position of the robot's center of mass.
 
 ## ROS2 Topic List
 
