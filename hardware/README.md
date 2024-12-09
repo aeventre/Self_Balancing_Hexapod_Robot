@@ -5,7 +5,7 @@
   - [Overview](#overview)
   - [Structure](#structure)
   - [Electronics](#electronics)
-  - [Setting the I2C Address of the PCA9685](#setting-the-i2c-address-of-the-pca9685)
+    - [Setting the I2C Address of the PCA9685](#setting-the-i2c-address-of-the-pca9685)
   - [PCB Layout](#pcb-layout)
 
 
@@ -29,7 +29,7 @@ The main chips on the board are:
 
 The rest of the chips are for reducing the voltage from the battery to a 5V 3 amp max line and a 6V 20 amp max line. The 6V line is for powering the servos which tend to draw a lot of current. I do not expect 20 amps to ever get drawn on that line, it's about 3 just standing, and then I'd imagine 10 amps max when walking, but better safe then sorry.
 
-## Setting the I2C Address of the PCA9685  
+### Setting the I2C Address of the PCA9685  
 The I2C address of the PCA chips is determined by certain pin  
 
 From datasheet:  
