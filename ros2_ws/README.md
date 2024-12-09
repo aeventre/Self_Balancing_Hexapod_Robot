@@ -50,7 +50,7 @@ ROS2 Package Structure:
    ```bash
    git clone https://github.com/aeventre/SpiderBot.git
    cd SpiderBot/ros2_ws
-2. Run the setup script, this will create the environment an install all the python dependencies
+2. Run the setup script, this will create the environment and install all the Python dependencies
 
     ```bash
     ./setup.sh
@@ -232,7 +232,7 @@ ROS2 Package Structure:
 
 3. **`/center_of_mass`**
    - **Type**: `geometry_msgs/Point`
-   - **Purpose**: Computed center of mass (CoM) of the robot in the body frame or global frame.
+   - **Purpose**: Computed center of mass (CoM) of the robot in the body or global frame.
 
 4. **`/foot_positions`**
    - **Type**: `hexapod_msgs/LegPositions`
@@ -244,7 +244,7 @@ ROS2 Package Structure:
 
 6. **`/stability_margin`**
    - **Type**: `std_msgs/Float64`
-   - **Purpose**: Stability margin of the robot based on the CoM and support polygon.
+   - **Purpose**: The stability margin of the robot based on the CoM and support polygon.
 
 7. **`/polygon_centroid`**
    - **Type**: `geometry_msgs/Point`
