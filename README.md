@@ -8,7 +8,12 @@ Created by: **Alec Ventresca & Ella Hicks**
 
 
 ## Table of Contents
-
+ - Self-Balacing Hexapod Robot
+   - [Overview](#overview)
+   - [Future Ideas/Plans](#future-ideas)
+   - [Acknowledgments](#acknowledgments)
+- [Hardware Design](hardware/README.md)
+- [Software Design](ros2_ws/README.md)
 
 
 ## Overview
@@ -21,7 +26,7 @@ The goal for the initial configuration of this project was to design a Hexapod R
 3. Develop modular software packages for control, movement computation, and sensing.
 4. Utilize ROS 2 Jazzy to coordinate the robot's operations.
 
-### Future Ideas/Plans
+### Future Ideas
 In no particular order:
 1. Getting the kinematics package to actually work
 2. Getting it to map out a room with a lidar sensor
