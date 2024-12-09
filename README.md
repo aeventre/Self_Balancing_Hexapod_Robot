@@ -54,7 +54,7 @@ In no particular order:
 
 
 ## Acknowledgments
-All CAD models used are from "Robs Tech Workbench" at https://github.com/robs-tech-workbench/hexapod_spiderbot_model\  
+All CAD models used are from "Robs Tech Workbench" at https://github.com/robs-tech-workbench/hexapod_spiderbot_model/
   
 Shoutout to Addison Sears-Collins for all the incredibly helpful ROS2 tutorials at https://automaticaddison.com/
 
