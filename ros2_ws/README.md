@@ -1,12 +1,9 @@
 # Software Design
 
-**OS:** Ubuntu 24.04 "noble"  
-**Framework:** Ros2  
-**Distro:** Jazzy  
-
 ## Table of Contents
 
 - [Software Design](#software-design)
+  - [Overview](#overview)
   - [Instructions for Running the Software on the Pi](#instructions-for-running-the-software-on-the-pi)
     - [1. Setting Up the Virtual Environment](#1-setting-up-the-virtual-environment)
     - [2. Commands for Running Nodes](#2-commands-for-running-nodes)
@@ -19,6 +16,11 @@
     - [6. Inverse and Forward Kinematics Package](#6-inverse-and-forward-kinematics-package)
     - [7. Center of Mass Calculator Package](#7-center-of-mass-calculator-package)
   - [ROS2 Topic List](#ros2-topic-list)
+
+## Overview
+**OS:** Ubuntu 24.04 "noble"  
+**Framework:** Ros2  
+**Distro:** Jazzy    
 
 ROS2 Package Structure:  
 ![Support Polygon](https://github.com/user-attachments/assets/2a590f97-79df-4a50-9e1c-7e0ff6e2a661)
