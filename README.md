@@ -8,12 +8,12 @@ Created by: **Alec Ventresca & Ella Hicks**
 
 
 ## Table of Contents
- - Self-Balacing Hexapod Robot
+ - **[Self-Balacing Hexapod Robot](#self-balacing-hexapod-robot)**
    - [Overview](#overview)
    - [Future Ideas/Plans](#future-ideas)
    - [Acknowledgments](#acknowledgments)
-- [Hardware Design](hardware/README.md)  
-- [Software Design](ros2_ws/README.md)
+- [**Hardware Design**](hardware/README.md)  
+- [**Software Design**](ros2_ws/README.md)
   - [Instructions for Running the Software on the Pi](ros2_ws/README.md#instructions-for-running-the-software-on-the-pi)
     - [1. Setting Up the Virtual Environment](ros2_ws/README.md#1-setting-up-the-virtual-environment)
     - [2. Commands for Running Nodes](ros2_ws/README.md#2-commands-for-running-nodes)
