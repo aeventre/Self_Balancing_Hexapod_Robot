@@ -1,4 +1,16 @@
 # Hardware Design
+
+## Table of Contents
+- [Hardware Design](#hardware-design)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Structure](#structure)
+  - [Electronics](#electronics)
+  - [Setting the I2C Address of the PCA9685](#setting-the-i2c-address-of-the-pca9685)
+  - [PCB Layout](#pcb-layout)
+
+
+## Overview
 One of the main goals I had for the initial design is to try and keep this robot as modular as possible so that I can mess around with a bunch of different 
 things and not be constrained to just the inital configuration. As such the GPIO of the ras pi is still accessible so wires or another PCB could be added. There are also 4 extra PWM outputs from the PCA9685 chips on the PCB that can be used to add additional servos or anything else that could be PWM controlled.
 
