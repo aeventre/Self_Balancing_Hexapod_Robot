@@ -27,7 +27,7 @@ Shoutout to Addison Sears-Collins for all the incredibly helpful ROS2 tutorials 
 ## Software Design
 ### Ros2 Package Structure
 ![Support Polygon](https://github.com/user-attachments/assets/2a590f97-79df-4a50-9e1c-7e0ff6e2a661)
-achments/assets/dba709ec-b20d-42da-985f-b76f4709a2ae)
+
 
 ## Circuit Design
 
