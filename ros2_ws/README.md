@@ -1,5 +1,8 @@
 # Software Design
 
+**OS:** Ubuntu 24.04 "noble"  
+**Framework:** Ros2  
+**Distro:** Jazzy
 ## Instructions for Setting up the Virtual Environment
 
 1. Clone the repository:
