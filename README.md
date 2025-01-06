@@ -1,8 +1,6 @@
 # Self-Balancing Hexapod Robot
 Created by: **Alec Ventresca & Ella Hicks**  
 
-***NOTE: The kinematics package is NOT currently functional.** All the rest of the packages have been tested and are functional. The only reason it has been pushed to the main is to submit this for our mechatronics class.*
-
 ![20241202_131742](https://github.com/user-attachments/assets/5de234e7-d59f-4bf5-8e5d-8d2eb02bb3d5)
 
 
