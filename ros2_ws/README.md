@@ -19,24 +19,7 @@
 
 ## Overview
 **OS:** Ubuntu 24.04 "noble"  
-**Framework:** Ros2  
-**Distro:** Jazzy    
-
-## Table of Contents
-
-- [Software Design](#software-design)
-  - [Table of Contents](#table-of-contents)
-  - [Instructions for Running the Software on the Pi](#instructions-for-running-the-software-on-the-pi)
-    - [**1. Setting Up the Virtual Environment**](#1-setting-up-the-virtual-environment)
-  - [ROS2 Package Overview](#ros2-package-overview)
-    - [1. **Support Polygon Calculator**](#1-support-polygon-calculator)
-    - [2. **Servo Control**](#2-servo-control)
-    - [3. **IMU Interface**](#3-imu-interface)
-    - [4. **Foot Sensor Package**](#4-foot-sensor-package)
-    - [5. **Static Balancing Package**](#5-static-balancing-package)
-    - [6. **Inverse and Forward Kinematics Package**](#6-inverse-and-forward-kinematics-package)
-    - [7. **Center of Mass Calculator Package**](#7-center-of-mass-calculator-package)
-  - [ROS2 Topic List](#ros2-topic-list)
+**Framework:** Ros2 Jazzy    
 
 ROS2 Package Structure:  
 ![Support Polygon](https://github.com/user-attachments/assets/2a590f97-79df-4a50-9e1c-7e0ff6e2a661)
