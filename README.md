@@ -1,3 +1,5 @@
+View this project on [CADLAB.io](https://cadlab.io/project/29567). 
+
 # Self-Balancing Hexapod Robot
 Created by: **Alec Ventresca & Ella Hicks**  
 
